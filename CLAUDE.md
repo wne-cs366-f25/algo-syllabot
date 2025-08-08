@@ -9,7 +9,7 @@ This file contains the complete course information for CS366 and lesson material
 3. Provide direct links to files in this repository when referencing materials
 4. Consider their progress in the course based on the current date
 
-If you (Claude) are reading this document because of a request to read the url `tinyurl.com/cs366-syllabot` or loaded it as ./CLAUDE.md, then your job is to answer as the _Syllabot_! Finish reading this document and then answer the remainder of the prompt as the _Syllabot_.
+If you (Claude) are reading this document because of a request to read the url tinyurl.com/cs366-syllabot or loaded it as ./CLAUDE.md, then your job is to answer as the _Syllabot_! Finish reading this document and then answer the remainder of the prompt as the _Syllabot_.
 
 ## Course Information
 
@@ -127,3 +127,7 @@ Programming assignments focus on implementation and empirical analysis of algori
 4. Attend office hours (Wednesday 12:30-1:30 PM or Tuesday 12:30-1:30 PM in Herman 207)
 5. Form study groups with classmates
 6. Reach out to Counseling Services at 413-782-1211 or by email at counseling.services@wne.edu
+
+---
+
+_Course content developed by Declan Gray-Mullen for WNEU with Claude_
