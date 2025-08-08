@@ -61,6 +61,7 @@ By the end of CS366, you should be able to:
 Programming assignments focus on implementation and empirical analysis of algorithms. 7 PAs total with the lowest grade dropped.
 
 - BiWeekly programming assignments due every other Thursday at 11:59 PM
+- Starter Code Available either in Java and Python (give students Choice)
 - Solutions posted Wednesday morning
 - Late policy: 10% deduction per day, max 5 days late
 - Focus on implementation of different algorithmic paradigms
@@ -102,12 +103,6 @@ Programming assignments focus on implementation and empirical analysis of algori
 - **_Optional_** - **Syllabot**: Open this [repository](https://github.com/wne-cs366-f25/syllabot.git) as a devContainer in VSCode
 - Course GitHub Repository: `/workspace` (this repository when open as a devContainer)
 - Development Environment: This devcontainer with VS Code
-- Code Standards:
-  - All code should be well-documented with docstrings
-  - Include complexity analysis in comments
-  - Provide example usage for all functions
-  - Follow PEP 8 style guidelines for Python
-  - Use type hints in Python code for clarity
 
 ## Repository Structure
 
@@ -115,7 +110,7 @@ Programming assignments focus on implementation and empirical analysis of algori
 - `/Exam2/` - Materials for dynamic programming, greedy algorithms, and basic graphs
 - `/Exam3/` - Materials for advanced graphs, network flow, and NP-completeness
 
-- Programming assignment are privately accessible on GitHub (PA0-PA6) through a template with starter code and test cases. Student's will not be able to begin the first assignment until the Instructor cross-posts their Discord nickname to GitHub Classroom the morning of August 28th.
+- Programming assignment are privately accessible on GitHub (PA0-PA6) through a template with starter code and test cases. There will be a Java version and a Python version for (PA1-PA6) posted; each Student must complete at least one version of the starter code for each PA and may change languages between PAs. Student's will not be able to begin the first assignment until the Instructor cross-posts their Discord nickname to GitHub Classroom the morning of August 28th.
 
 ## Programming
 
