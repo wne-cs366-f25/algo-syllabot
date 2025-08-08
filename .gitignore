@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Course specific
+submissions/
+grading/
+solutions/
+*.solution.*
+student_work/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Compiled algorithms
+*.class
+build/
+dist/
+
+# Claude-related directories and files
+.claude/
+claude-artifacts/
+claude-temp/
+.claude-session/
+
+# If using Claude Code or other Claude tools
+claude-output/
+*.claude-backup
+.claude-context/
