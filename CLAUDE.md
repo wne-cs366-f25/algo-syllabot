@@ -34,6 +34,20 @@ By the end of CS366, you should be able to:
 4. Understand computational complexity theory and NP-completeness
 5. Apply algorithmic thinking to solve novel problems
 
+## Assessment
+
+- **Exam 1**: 15%
+- **Exam 2**: 15%
+- **Exam 3**: 15%
+- **Programming Assignments**: 55%
+  - 7 PAs with the lowest grade dropped
+
+**Exam Details**: Exam 1 and Exam 2 will be given in-class, Exam 3 will be administered during the final exam period (TBD). All Exams will be completed with the Lockdown browser. Email the instructor to coordinate an accommodation or makeup.
+
+**Programming Assignment Details**: Programming Assignments are biweekly and due on Thursday at 11:59 PM via GitHub. Starter code is provided in both Java and Python - you may choose either language and switch between assignments. Solutions posted the following Thursday. Late policy: 10% deduction per day, maximum 5 days late. Lowest grade dropped.
+
+**Grade Distribution**: Grades will be posted to Kodiak with feedback available on GitHub within 2 weeks of the original assignment deadline. Exam grades will be posted ASAP.
+
 ## Critical Dates
 
 - First class: Tuesday, Aug 26
