@@ -210,7 +210,7 @@ Once I have a copy of your approved accommodations from SAS we can plan a time t
 ## Ask for help!
 
 1. Post in the course Discord channels or message an instructor
-2. Ask Claude
+2. Ask Syllabot (Claude)
 3. Email me at declan.gray-mullen@wne.edu
 4. Attend office hours (Wednesday 12:30-1:30 PM or Tuesday 12:30-1:30 PM in Herman 207)
 5. Form study groups with classmates
