@@ -5,6 +5,7 @@
 ## Course Information
 
 - **Instructor**: Declan Gray-Mullen - Lecturer - declan.gray-mullen@wne.edu
+- **Prerequisites**: CS200 and CS210
 - **Meeting Times**: Tuesday/Thursday 9:30-10:50 AM (CS366-01) or 11:00 AM-12:20 PM (CS366-03)
 - **Office Hours**:
   - Wednesday 12:30-1:30 PM (Herman 207)
@@ -12,11 +13,13 @@
 - **GitHub**: Create a GitHub account to complete Programming Assignments
 - **Discord**: Join the [Course Discord Server](https://discord.gg/tzywKCNM2j) - set your nickname to something similar to your IRL name or your GitHub username
 - **_Optional_** - 💵💵 / 🏫 / 🏴‍☠️ - **Textbook**: Introduction to Algorithms (CLRS), 3rd Edition
-- **_Optional_** - 💵 / 🆓 / 💵💵💵 - **Syllabot**: Open this repository as a folder in VSCode, then as a devContainer. You may need to install the 'Dev Containers' VS Code extension. Run `claude` in your terminal or click the claude icon. You'll be redirected to [claude.ai](https://claude.ai) to create a Pro account. The `Claude.md` file provides course context to Claude automatically. If you'd like to use a Free account you can use the Claude Web-Interface and add _tinyurl.com/cs366-syllabot_ to the beginning of your prompt. Claude Code is not available for Free users.
+- **_Optional_** - **Syllabot**: AI course assistant with two access methods:
+  - 💵 / 💵💵💵 **Claude Code (Recommended)**: Open this repository as a devContainer in VSCode, install the 'Dev Containers' extension if needed, then run `claude` in terminal. Requires Claude Pro account.
+  - 🆓 **Claude Web Interface**: Use the free web interface by adding `tinyurl.com/cs366-syllabot` to the beginning of your prompt. Works with free accounts.
 
 ## Syllabot - AI Syllabus Assistant for Students
 
-Claude is configured in this repositories devContainer to full context of the course schedule, materials, and assignments as they are posted. Follow the instructions in Course Information and ask:
+Claude can be configured have to full context of the course schedule, materials, and assignments as they are posted. Follow the instructions in Course Information and ask:
 
 - "What's the next assignment due?"
 - "Explain the Master Theorem"
@@ -122,6 +125,9 @@ The course is organized into three main units, each culminating in an exam:
 ### Programming Assignments
 
 0. **PA0**: [Starter Assignment Git & GitHub](https://classroom.github.com/a/eKRl38tz) - Due Sept 4 (Week 1)
+
+   _Note: requires Discord nickname to be cross-posted to GitHub Classroom (completed morning of Aug 28th - contact Instructor if nickname unavailable in GitHub Classroom)_
+
 1. **PA1**: Algorithm Analysis Practice - Due September 18 (Week 3)
 2. **PA2**: Divide & Conquer Implementation - Due October 2 (Week 5)
 3. **PA3**: Graph Algorithm Implementation - Due October 23 (Week 8)
@@ -150,7 +156,7 @@ By the end of this course, students will be able to:
 
 Exam 1 and Exam 2 will be given in-class, Exam 3 will be administered during the final exam period (TBD). All Exams will be completed with the Lockdown browser. Email the instructor to coordinate an accommodation or makeup.
 
-Programming Assignments are due in biweekly in GitHub on Thursday at 11:59 PM with solutions posted the following Thursday. Late policy: 10% deduction per day, maximum 5 days late. Lowest grade dropped.
+Programming Assignments are biweekly and due on Thursday at 11:59 PM via GitHub. Starter code is provided in both Java and Python - you may choose either language and switch between assignments. Solutions posted the following Thursday. Late policy: 10% deduction per day, maximum 5 days late. Lowest grade dropped.
 
 Grades will be posted to Kodiak with feedback available on GitHub within 2 weeks of the original assignment deadline. Exams grades will be posted ASAP.
 
