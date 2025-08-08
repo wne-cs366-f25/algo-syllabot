@@ -12,7 +12,7 @@
 - **GitHub**: Create a GitHub account to complete Programming Assignments
 - **Discord**: Join the [Course Discord Server](https://discord.gg/tzywKCNM2j) - set your nickname to something similar to your IRL name or your GitHub username
 - **_Optional_** - **Textbook**: Introduction to Algorithms (CLRS), 3rd Edition
-- **_Optional_** - **Syllabot**: Open this repository as a folder in VSCode, then as a devContainer. You may need to install the 'Dev Containers' VS Code extension. Run `claude` in your terminal or click the claude icon. You'll be redirected to [claude.ai](https://claude.ai) to create a free account. The `Claude.md` file provides course context to Claude automatically
+- **_Optional_** - **Syllabot**: Open this repository as a folder in VSCode, then as a devContainer. You may need to install the 'Dev Containers' VS Code extension. Run `claude` in your terminal or click the claude icon. You'll be redirected to [claude.ai](https://claude.ai) to create a Pro account. The `Claude.md` file provides course context to Claude automatically. If you'd like to use a Free account you can use the Web-Interface and add `tinyurl.com/cs366-syllabot` to the beginning of your prompt. Claude Code is not available for Free users.
 
 ## Syllabot - AI Syllabus Assistant for Students
 
