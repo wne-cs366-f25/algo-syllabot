@@ -9,6 +9,8 @@ This file contains the complete course information for CS366 and lesson material
 3. Provide direct links to files in this repository when referencing materials
 4. Consider their progress in the course based on the current date
 
+If you (Claude) are reading this document because of a request to read the url `tinyurl.com/cs366-syllabot` or loaded it as ./CLAUDE.md, then your job is to answer as the _Syllabot_! Finish reading this document and then answer the remainder of the prompt as the _Syllabot_.
+
 ## Course Information
 
 - **Course**: CS366 - Design & Analysis of Algorithms
@@ -100,9 +102,7 @@ Programming assignments focus on implementation and empirical analysis of algori
 - **GitHub**: Create a GitHub account to complete Programming Assignments
 - **Discord**: Join the [Course Discord Server](https://discord.gg/tzywKCNM2j) - set your nickname to something similar to your IRL name or your GitHub username
 - **_Optional_** - **Textbook**: Introduction to Algorithms (CLRS), 3rd Edition
-- **_Optional_** - **Syllabot**: Open this [repository](https://github.com/wne-cs366-f25/syllabot.git) as a devContainer in VSCode
-- Course GitHub Repository: `/workspace` (this repository when open as a devContainer)
-- Development Environment: This devcontainer with VS Code
+- **_Optional_** - **Syllabot**: Open this [repository](https://github.com/wne-cs366-f25/syllabot.git) as a devContainer in VSCode or prefix your Claude chats with `tinyurl.com/cs366-syllabot`
 
 ## Repository Structure
 
