@@ -117,6 +117,7 @@ Programming assignments focus on implementation and empirical analysis of algori
 - **Discord**: Join the [Course Discord Server](https://discord.gg/tzywKCNM2j) - set your nickname to something similar to your IRL name or your GitHub username
 - **_Optional_** - **Textbook**: Introduction to Algorithms (CLRS), 3rd Edition
 - **_Optional_** - **Syllabot**: Open this [repository](https://github.com/wne-cs366-f25/syllabot.git) as a devContainer in VSCode or prefix your Claude chats with `tinyurl.com/cs366-syllabot`
+- **Lecture Transcripts**: Anonymized transcripts of class lectures are posted to Kodiak LMS to enhance accessibility and allow students to search for specific topics discussed in class
 
 ## Repository Structure
 
