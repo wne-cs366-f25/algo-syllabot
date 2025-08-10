@@ -45,7 +45,7 @@ Programming Assignments are intended to be completed based on the provided cours
 ## Repository Structure
 
 ```
-cs366/
+syllabot/
 ├── .devcontainer/      # Development environment configuration
 ├── CLAUDE.md           # Course context for AI assistant
 ├── README.md           # This file

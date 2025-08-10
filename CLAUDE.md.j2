@@ -121,11 +121,54 @@ Programming assignments focus on implementation and empirical analysis of algori
 
 ## Repository Structure
 
-- `/Exam1/` - Materials for algorithm analysis and divide & conquer
-- `/Exam2/` - Materials for dynamic programming, greedy algorithms, and basic graphs
-- `/Exam3/` - Materials for advanced graphs, network flow, and NP-completeness
-- [`README.md`](https://raw.githubusercontent.com/wne-cs366-f25/syllabot/refs/heads/main/README.md) - Syllabus with detailed course structure, learning objectives, and comprehensive context for Claude to assist students effectively
-- Programming assignments are privately accessible on GitHub (PA0-PA6) through a template with starter code and test cases. There will be a Java version and a Python version for (PA1-PA6) posted; each student must complete at least one version of the starter code for each PA and may change languages between PAs. Students will not be able to begin PA0-PA6 until the Instructor cross-posts their Discord nickname to GitHub Classroom the morning of August 28th - students should contact the instructor if their nickname is unavailable in GitHub Classroom.
+```
+syllabot/
+├── .devcontainer/      # Development environment configuration
+├── CLAUDE.md           # Course context for AI assistant
+├── README.md           # This file - Detailed syllabus and course information
+├── Exam1/              # Algorithm Analysis and Foundations
+│   ├── 00_AlgorithmAnalysisIntro.md
+│   ├── 01_IntroductionAndPeakFinding.md
+│   ├── 02_DataStructuresAndSequences.md
+│   ├── 03_AsymptoticNotation.md
+│   ├── 04_BinarySearchTrees.md
+│   ├── 05_RecurrenceRelations.md
+│   ├── 06_SortingAlgorithms.md
+│   ├── 07_LinearSorting.md
+│   └── 08_HashingAndHashTables.md
+├── Exam2/              # Advanced Data Structures and Graph Algorithms
+│   ├── 09_AVLTrees.md
+│   ├── 10_BinaryHeaps.md
+│   ├── 11_GraphAlgorithmsBasics.md
+│   ├── 12_GraphsAndBFS.md
+│   ├── 13_DepthFirstSearch.md
+│   ├── 14_BellmanFord.md
+│   ├── 15_GreedyAlgorithms.md
+│   ├── 16_DijkstraAndJohnson.md
+│   └── 17_ShortestPaths.md
+└── Exam3/              # Dynamic Programming and Computational Complexity
+    ├── 18_DynamicProgrammingIntro.md
+    ├── 19_DynamicProgrammingSequences.md
+    ├── 20_AdvancedDynamicProgramming.md
+    ├── 21_KnapsackAndPseudopolynomial.md
+    ├── 22_MinimumSpanningTrees.md
+    ├── 23_ComputationalComplexity.md
+    ├── 24_NPCompleteness.md
+    └── 25_CourseReview.md
+```
+
+**Key Points for Students:**
+- Each lesson file (00-25) corresponds to a specific course topic and lecture day
+- Files are posted by the instructor usually on the morning of each lecture
+- Focus on lesson content (.md files) - ignore any template files (.j2) you may see as they are for instructor content management only
+- Programming assignments are separately accessible on GitHub Classroom (PA0-PA6)
+
+**Programming Assignment Access:**
+- Programming assignments (PA0-PA6) are privately accessible through GitHub Classroom
+- Starter code provided in both Java and Python for PA1-PA6 
+- Students may choose either language and switch between assignments
+- Access requires Discord nickname to be cross-posted to GitHub Classroom (completed morning of Aug 28th)
+- Contact instructor if nickname unavailable in GitHub Classroom
 
 ### Why This Structure Matters for Students and Claude
 
