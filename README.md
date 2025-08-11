@@ -45,7 +45,7 @@ Programming Assignments are intended to be completed based on the provided cours
 ## Repository Structure
 
 ```
-syllabot/
+cs366/
 ├── .devcontainer/      # Development environment configuration
 ├── CLAUDE.md           # Course context for AI assistant
 ├── README.md           # This file
@@ -86,40 +86,42 @@ The course is organized into three main units, each culminating in an exam:
 
 ### Exam 1: Algorithm Analysis and Foundations (Weeks 0-5)
 
-- **Algorithm Analysis Introduction** - Problem-solving approaches and complexity basics
-- **Introduction and Peak Finding** - Algorithmic thinking and divide-and-conquer
-- **Data Structures and Sequences** - Arrays, linked lists, and dynamic arrays
-- **Asymptotic Notation** - Big O, Theta, and Omega analysis
-- **Binary Search Trees** - BST operations and tree traversals
-- **Recurrence Relations** - Solving recurrences and the Master Theorem
-- **Sorting Algorithms** - Insertion sort, merge sort, and analysis
-- **Linear Sorting** - Counting sort, radix sort, and lower bounds
-- **Hashing and Hash Tables** - Dictionary operations and collision resolution
+- **Week 1 (Tuesday, Aug 27)**: Algorithm Introduction - Problem-solving approaches and complexity basics
+  - Materials: CLRS Chapter 1-2, Lecture Slides
+- **Week 1**: Introduction and Peak Finding - Algorithmic thinking and divide-and-conquer
+- **Week 2**: Data Structures and Sequences - Arrays, linked lists, and dynamic arrays
+- **Week 2**: Asymptotic Notation - Big O, Theta, and Omega analysis
+- **Week 3**: Binary Search Trees - BST operations and tree traversals
+- **Week 3**: Recurrence Relations - Solving recurrences and the Master Theorem
+- **Week 4**: Sorting Algorithms - Insertion sort, merge sort, and analysis
+- **Week 4**: Linear Sorting - Counting sort, radix sort, and lower bounds
+- **Week 5**: Hashing and Hash Tables - Dictionary operations and collision resolution
 - **Exam 1**: Thursday, October 2
 
 ### Exam 2: Advanced Data Structures and Graph Algorithms (Weeks 6-11)
 
-- **Balanced Binary Search Trees (AVL)** - Rotations and height guarantees
-- **Binary Heaps and Priority Queues** - Heap operations and heap sort
-- **Graph Algorithms Basics** - Graph fundamentals and representations
-- **Graph Representations and BFS** - Graph basics and breadth-first search
-- **Depth-First Search and Applications** - DFS and topological sort
-- **Bellman-Ford Algorithm** - Shortest paths with negative weights
-- **Greedy Algorithms** - Greedy paradigm and optimization techniques
-- **Dijkstra's and Johnson's Algorithms** - Efficient shortest path algorithms
-- **Shortest Paths** - Advanced shortest path algorithms and applications
+- **Week 6**: Balanced Binary Search Trees (AVL) - Rotations and height guarantees
+- **Week 6**: Binary Heaps and Priority Queues - Heap operations and heap sort
+- **Week 7**: Graph Algorithms Basics - Graph fundamentals and representations
+- **Week 7**: Graph Representations and BFS - Graph basics and breadth-first search
+- **Week 8**: Depth-First Search and Applications - DFS and topological sort
+- **Week 8**: Bellman-Ford Algorithm - Shortest paths with negative weights
+- **Week 9**: Greedy Algorithms - Greedy paradigm and optimization techniques
+- **Week 9**: Dijkstra's and Johnson's Algorithms - Efficient shortest path algorithms
+- **Week 10**: Shortest Paths - Advanced shortest path algorithms and applications
 - **Exam 2**: Thursday, November 6
 
 ### Exam 3: Dynamic Programming and Computational Complexity (Weeks 12-15)
 
-- **Introduction to Dynamic Programming** - Memoization and tabulation
-- **DP on Sequences** - LCS, LIS, and edit distance
-- **Advanced Dynamic Programming** - Matrix chain, Floyd-Warshall, and tree DP
-- **Knapsack and Pseudopolynomial Algorithms** - Optimization with constraints
-- **Minimum Spanning Trees** - Kruskal's and Prim's algorithms
-- **Computational Complexity Theory** - P, NP, and computational hardness
-- **NP-Completeness** - NP-complete problems and reductions
-- **Course Review and Advanced Topics** - Synthesis and future directions
+- **Week 11**: Introduction to Dynamic Programming - Memoization and tabulation
+- **Week 11**: DP on Sequences - LCS, LIS, and edit distance
+- **Week 12**: Advanced Dynamic Programming - Matrix chain, Floyd-Warshall, and tree DP
+- **Week 12**: Knapsack and Pseudopolynomial Algorithms - Optimization with constraints
+- **Week 13**: Minimum Spanning Trees - Kruskal's and Prim's algorithms
+- **Week 13**: Computational Complexity Theory - P, NP, and computational hardness
+- **Week 14**: NP-Completeness - NP-complete problems and reductions
+- **Week 14**: Course Review and Advanced Topics - Synthesis and future directions
+- **Week 15 (Thursday, Dec 12)**: Special Topics in Algorithms - Advanced algorithms and research topics
 - **Exam 3 / Final Exam**: During Finals Week (December 8-12)
 
 ### Programming Assignments
