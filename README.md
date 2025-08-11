@@ -32,14 +32,14 @@ Programming Assignments are intended to be completed based on the provided cours
 
 - Tuesday, Aug 26: First class
 - Friday, Sept 5: Last add/drop
-- Thursday, Oct 2: **Exam 1**
+- Thursday, October 2, 2025: **Exam1** - Algorithm Analysis and Foundations
 - Tuesday, Oct 14: No Class (Fall Break)
 - Monday, Oct 20: In-progress grades
 - Monday, Oct 27: Last withdraw
-- Thursday, Nov 6: **Exam 2**
+- November 6: **Exam2** - Advanced Data Structures and Graph Algorithms
 - Thursday, Nov 27: No Class (Thanksgiving)
 - Thursday, Dec 4: Last class
-- December 8-12: **Exam 3 / Final Exam** (TBD)
+- Finals Week (Dec 8-12): **Exam3/Final** - Dynamic Programming and Computational Complexity (Location TBD)
 - Monday, Dec 15: Final grades posted
 
 ## Repository Structure
@@ -84,58 +84,84 @@ cs366/
 
 The course is organized into three main units, each culminating in an exam:
 
-### Exam 1: Algorithm Analysis and Foundations (Weeks 0-5)
+### Algorithm Analysis and Foundations: Algorithm analysis, peak finding, data structures, asymptotic notation, binary search trees, recurrence relations, sorting algorithms, linear sorting, hashing and hash tables (0-5)
 
-- **Week 1 (Tuesday, Aug 27)**: Algorithm Introduction - Problem-solving approaches and complexity basics
-  - Materials: CLRS Chapter 1-2, Lecture Slides
-- **Week 1**: Introduction and Peak Finding - Algorithmic thinking and divide-and-conquer
-- **Week 2**: Data Structures and Sequences - Arrays, linked lists, and dynamic arrays
-- **Week 2**: Asymptotic Notation - Big O, Theta, and Omega analysis
-- **Week 3**: Binary Search Trees - BST operations and tree traversals
-- **Week 3**: Recurrence Relations - Solving recurrences and the Master Theorem
-- **Week 4**: Sorting Algorithms - Insertion sort, merge sort, and analysis
-- **Week 4**: Linear Sorting - Counting sort, radix sort, and lower bounds
-- **Week 5**: Hashing and Hash Tables - Dictionary operations and collision resolution
-- **Exam 1**: Thursday, October 2
+- **Week 1 (Thursday, Aug 28)**: Algorithm Introduction - Problem-solving approaches and complexity basics
+  - Materials: CLRS Chapter 1-2
+- **Week 2 (Tuesday, Sept 2)**: Introduction and Peak Finding - Algorithmic thinking and divide-and-conquer
+  - Materials: CLRS Chapter 3
+- **Week 2 (Thursday, Sept 4)**: Data Structures and Sequences - Arrays, linked lists, and dynamic arrays
+  - Materials: CLRS Chapter 10-11
+- **Week 2 (Tuesday, Sept 9)**: Asymptotic Notation - Big O, Theta, and Omega analysis
+  - Materials: CLRS Chapter 3
+- **Week 3 (Thursday, Sept 11)**: Binary Search Trees - BST operations and tree traversals
+  - Materials: CLRS Chapter 12
+- **Week 3 (Tuesday, Sept 16)**: Recurrence Relations - Solving recurrences and the Master Theorem
+  - Materials: CLRS Chapter 4
+- **Week 4 (Thursday, Sept 18)**: Sorting Algorithms - Insertion sort, merge sort, and analysis
+  - Materials: CLRS Chapter 2, 6
+- **Week 4 (Tuesday, Sept 23)**: Linear Sorting - Counting sort, radix sort, and lower bounds
+  - Materials: CLRS Chapter 8
+- **Week 5 (Thursday, Sept 25)**: Hashing and Hash Tables - Dictionary operations and collision resolution
+  - Materials: CLRS Chapter 11
+- **Algorithm Analysis and Foundations**: Thursday, October 2, 2025
 
-### Exam 2: Advanced Data Structures and Graph Algorithms (Weeks 6-11)
+### Advanced Data Structures and Graph Algorithms: AVL trees, binary heaps, graph algorithms basics, BFS, DFS, Bellman-Ford, greedy algorithms, Dijkstra's algorithm, shortest paths (6-11)
 
-- **Week 6**: Balanced Binary Search Trees (AVL) - Rotations and height guarantees
-- **Week 6**: Binary Heaps and Priority Queues - Heap operations and heap sort
-- **Week 7**: Graph Algorithms Basics - Graph fundamentals and representations
-- **Week 7**: Graph Representations and BFS - Graph basics and breadth-first search
-- **Week 8**: Depth-First Search and Applications - DFS and topological sort
-- **Week 8**: Bellman-Ford Algorithm - Shortest paths with negative weights
-- **Week 9**: Greedy Algorithms - Greedy paradigm and optimization techniques
-- **Week 9**: Dijkstra's and Johnson's Algorithms - Efficient shortest path algorithms
-- **Week 10**: Shortest Paths - Advanced shortest path algorithms and applications
-- **Exam 2**: Thursday, November 6
+- **Week 6 (Tuesday, Sept 30)**: Balanced Binary Search Trees (AVL) - Rotations and height guarantees
+  - Materials: CLRS Chapter 13
+- **Week 7 (Tuesday, Oct 7)**: Binary Heaps and Priority Queues - Heap operations and heap sort
+  - Materials: CLRS Chapter 6
+- **Week 7 (Thursday, Oct 9)**: Graph Algorithms Basics - Graph fundamentals and representations
+  - Materials: CLRS Chapter 22
+- **Week 8 (Tuesday, Oct 14)**: Graph Representations and BFS - Graph basics and breadth-first search
+  - Materials: CLRS Chapter 22
+- **Week 8 (Thursday, Oct 16)**: Depth-First Search and Applications - DFS and topological sort
+  - Materials: CLRS Chapter 22
+- **Week 9 (Tuesday, Oct 21)**: Bellman-Ford Algorithm - Shortest paths with negative weights
+  - Materials: CLRS Chapter 24
+- **Week 9 (Thursday, Oct 23)**: Greedy Algorithms - Greedy paradigm and optimization techniques
+  - Materials: CLRS Chapter 16
+- **Week 10 (Tuesday, Oct 28)**: Dijkstra's and Johnson's Algorithms - Efficient shortest path algorithms
+  - Materials: CLRS Chapter 24-25
+- **Week 10 (Thursday, Oct 30)**: Shortest Paths - Advanced shortest path algorithms and applications
+  - Materials: CLRS Chapter 24-25
+- **Advanced Data Structures and Graph Algorithms**: November 6
 
-### Exam 3: Dynamic Programming and Computational Complexity (Weeks 12-15)
+### Dynamic Programming and Computational Complexity: Dynamic programming introduction and sequences, advanced DP, knapsack problems, minimum spanning trees, computational complexity, NP-completeness (12-15)
 
-- **Week 11**: Introduction to Dynamic Programming - Memoization and tabulation
-- **Week 11**: DP on Sequences - LCS, LIS, and edit distance
-- **Week 12**: Advanced Dynamic Programming - Matrix chain, Floyd-Warshall, and tree DP
-- **Week 12**: Knapsack and Pseudopolynomial Algorithms - Optimization with constraints
-- **Week 13**: Minimum Spanning Trees - Kruskal's and Prim's algorithms
-- **Week 13**: Computational Complexity Theory - P, NP, and computational hardness
-- **Week 14**: NP-Completeness - NP-complete problems and reductions
-- **Week 14**: Course Review and Advanced Topics - Synthesis and future directions
-- **Week 15 (Thursday, Dec 12)**: Special Topics in Algorithms - Advanced algorithms and research topics
-- **Exam 3 / Final Exam**: During Finals Week (December 8-12)
+- **Week 11 (Tuesday, Nov 4)**: Introduction to Dynamic Programming - Memoization and tabulation
+  - Materials: CLRS Chapter 15
+- **Week 12 (Tuesday, Nov 11)**: DP on Sequences - LCS, LIS, and edit distance
+  - Materials: CLRS Chapter 15
+- **Week 12 (Thursday, Nov 13)**: Advanced Dynamic Programming - Matrix chain, Floyd-Warshall, and tree DP
+  - Materials: CLRS Chapter 15, 25
+- **Week 13 (Tuesday, Nov 18)**: Knapsack and Pseudopolynomial Algorithms - Optimization with constraints
+  - Materials: CLRS Chapter 15
+- **Week 13 (Thursday, Nov 20)**: Minimum Spanning Trees - Kruskal's and Prim's algorithms
+  - Materials: CLRS Chapter 23
+- **Week 14 (Tuesday, Nov 25)**: Computational Complexity Theory - P, NP, and computational hardness
+  - Materials: CLRS Chapter 34
+- **Week 15 (Tuesday Dec 2)**: NP-Completeness - NP-complete problems and reductions
+  - Materials: CLRS Chapter 34
+- **Week 15 (Thursday, Dec 4)**: Course Review and Advanced Topics - Synthesis and future directions
+  - Materials: Course Review Materials
+- **Week 15 (TBD)**: Special Topics in Algorithms - Advanced algorithms and research topics
+  - Materials: Advanced Topics, Research Papers
+- **Dynamic Programming and Computational Complexity**: During Finals Week (Finals Week (Dec 8-12))
 
 ### Programming Assignments
 
-0. **PA0**: [Git & GitHub Starter Assignment](https://github.com) - Due Sept 4 (Week 1)
+0. **PA0**: [Git & GitHub Starter Assignment](https://classroom.github.com/a/PA0_URL_TBD) - Due Sept 4 (Week 1)
 
    _Note: requires Discord nickname to be cross-posted to GitHub Classroom (completed morning of Aug 28th - contact Instructor if nickname unavailable in GitHub Classroom)_
 
-1. **PA1**: [Algorithm Analysis Practice]({{ PA1_URL }}) - Due September 18 (Week 3)
-2. **PA2**: [Divide & Conquer Implementation]({{ PA2_URL }}) - Due October 2 (Week 5)
-3. **PA3**: [Graph Algorithm Implementation]({{ PA3_URL }}) - Due October 23 (Week 8)
-4. **PA4**: [Dynamic Programming Problems]({{ PA4_URL }}) - Due November 6 (Week 10)
-5. **PA5**: [Greedy Algorithm Implementation]({{ PA5_URL }}) - Due November 20 (Week 12)
-6. **PA6**: [NP-Complete Problem Reduction]({{ PA6_URL }}) - Due December 4 (Week 14)
+1. **PA1**: [Algorithm Analysis Practice](https://classroom.github.com/a/PA1_URL_TBD) - Due September 18 (Week 3)
+2. **PA2**: [Divide & Conquer Implementation](https://classroom.github.com/a/PA2_URL_TBD) - Due October 2 (Week 5)
+3. **PA3**: [Graph Algorithm Implementation](https://classroom.github.com/a/PA3_URL_TBD) - Due October 23 (Week 8)
+4. **PA4**: [Dynamic Programming Problems](https://classroom.github.com/a/PA4_URL_TBD) - Due November 6 (Week 10)
+5. **PA5**: [Greedy Algorithm Implementation](https://classroom.github.com/a/PA5_URL_TBD) - Due November 20 (Week 12)
+6. **PA6**: [NP-Complete Problem Reduction](https://classroom.github.com/a/PA6_URL_TBD) - Due December 4 (Week 14)
 
 ## Learning Objectives
 
@@ -150,9 +176,9 @@ By the end of this course, students will be able to:
 
 ## Assessment
 
-- Exam 1: 15%
-- Exam 2: 15%
-- Exam 3: 15%
+- Algorithm Analysis and Foundations: 15%
+- Advanced Data Structures and Graph Algorithms: 15%
+- Dynamic Programming and Computational Complexity: 15%
 - Programming Assignments: 55%
   - 7 PAs with the lowest grade dropped.
 

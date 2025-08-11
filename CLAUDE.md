@@ -36,9 +36,9 @@ By the end of CS366, you should be able to:
 
 ## Assessment
 
-- **Exam 1**: 15%
-- **Exam 2**: 15%
-- **Exam 3**: 15%
+- **Algorithm Analysis and Foundations**: 15%
+- **Advanced Data Structures and Graph Algorithms**: 15%
+- **Dynamic Programming and Computational Complexity**: 15%
 - **Programming Assignments**: 55%
   - 7 PAs with the lowest grade dropped
 
@@ -50,29 +50,29 @@ By the end of CS366, you should be able to:
 
 ## Critical Dates
 
-- First class: Tuesday, Aug 26
-- Last add/drop: Friday, Sept 5
-- **Exam 1**: Thursday, Oct 2
-- No Class: Tuesday, Oct 14 (Fall Break)
-- In-progress grades: Monday, Oct 20
-- Last withdraw: Monday, Oct 27
-- **Exam 2**: Thursday, Nov 6
-- No Class: Thursday, Nov 27 (Thanksgiving)
-- Last class: Thursday, Dec 4
-- **Exam 3 - Final Exam**: TBD (December 8-12)
-- Final grades posted: Monday, Dec 15
+- Tuesday, Aug 26: First class
+- Friday, Sept 5: Last add/drop
+- Thursday, October 2, 2025: **Exam1** - Algorithm Analysis and Foundations
+- Tuesday, Oct 14: No Class (Fall Break)
+- Monday, Oct 20: In-progress grades
+- Monday, Oct 27: Last withdraw
+- November 6: **Exam2** - Advanced Data Structures and Graph Algorithms
+- Thursday, Nov 27: No Class (Thanksgiving)
+- Thursday, Dec 4: Last class
+- Finals Week (Dec 8-12): **Exam3/Final** - Dynamic Programming and Computational Complexity (Location TBD)
+- Monday, Dec 15: Final grades posted
 
 ## Assignment Structure and Due Dates
 
 ### Programming Assignments
 
-0. **PA0**: [Git & GitHub Starter Assignment](https://github.com) - Due Sept 4 (Week 1)
-1. **PA1**: [Algorithm Analysis Practice]({{ PA1_URL }}) - Due September 18 (Week 3)
-2. **PA2**: [Divide & Conquer Implementation]({{ PA2_URL }}) - Due October 2 (Week 5)
-3. **PA3**: [Graph Algorithm Implementation]({{ PA3_URL }}) - Due October 23 (Week 8)
-4. **PA4**: [Dynamic Programming Problems]({{ PA4_URL }}) - Due November 6 (Week 10)
-5. **PA5**: [Greedy Algorithm Implementation]({{ PA5_URL }}) - Due November 20 (Week 12)
-6. **PA6**: [NP-Complete Problem Reduction]({{ PA6_URL }}) - Due December 4 (Week 14)
+0. **PA0**: [Git & GitHub Starter Assignment](https://classroom.github.com/a/PA0_URL_TBD) - Due Sept 4 (Week 1)
+1. **PA1**: [Algorithm Analysis Practice](https://classroom.github.com/a/PA1_URL_TBD) - Due September 18 (Week 3)
+2. **PA2**: [Divide & Conquer Implementation](https://classroom.github.com/a/PA2_URL_TBD) - Due October 2 (Week 5)
+3. **PA3**: [Graph Algorithm Implementation](https://classroom.github.com/a/PA3_URL_TBD) - Due October 23 (Week 8)
+4. **PA4**: [Dynamic Programming Problems](https://classroom.github.com/a/PA4_URL_TBD) - Due November 6 (Week 10)
+5. **PA5**: [Greedy Algorithm Implementation](https://classroom.github.com/a/PA5_URL_TBD) - Due November 20 (Week 12)
+6. **PA6**: [NP-Complete Problem Reduction](https://classroom.github.com/a/PA6_URL_TBD) - Due December 4 (Week 14)
 
 Programming assignments focus on implementation and empirical analysis of algorithms. 7 PAs total with the lowest grade dropped.
 
@@ -84,7 +84,7 @@ Programming assignments focus on implementation and empirical analysis of algori
 
 ## Course Topics by Exam
 
-### Exam 1 Topics: Foundations and Data Structures (in /Exam1 folder)
+### Algorithm Analysis and Foundations Topics: Algorithm analysis, peak finding, data structures, asymptotic notation, binary search trees, recurrence relations, sorting algorithms, linear sorting, hashing and hash tables (in /Exam1 folder)
 
 - Introduction and Peak Finding - Algorithmic thinking and divide-and-conquer
 - Data Structures and Sequences - Arrays, linked lists, and dynamic arrays
@@ -93,7 +93,7 @@ Programming assignments focus on implementation and empirical analysis of algori
 - Linear Sorting - Counting sort, radix sort, and lower bounds
 - Binary Search Trees - BST operations and tree traversals
 
-### Exam 2 Topics: Graph Algorithms and Shortest Paths (in /Exam2 folder)
+### Advanced Data Structures and Graph Algorithms Topics: AVL trees, binary heaps, graph algorithms basics, BFS, DFS, Bellman-Ford, greedy algorithms, Dijkstra's algorithm, shortest paths (in /Exam2 folder)
 
 - Balanced Binary Search Trees (AVL) - Rotations and height guarantees
 - Binary Heaps and Priority Queues - Heap operations and heap sort
@@ -102,7 +102,7 @@ Programming assignments focus on implementation and empirical analysis of algori
 - Bellman-Ford Algorithm - Shortest paths with negative weights
 - Dijkstra's and Johnson's Algorithms - Efficient shortest path algorithms
 
-### Exam 3 Topics: Dynamic Programming and Complexity (in /Exam3 folder)
+### Dynamic Programming and Computational Complexity Topics: Dynamic programming introduction and sequences, advanced DP, knapsack problems, minimum spanning trees, computational complexity, NP-completeness (in /Exam3 folder)
 
 - Introduction to Dynamic Programming - Memoization and tabulation
 - DP on Sequences - LCS, LIS, and edit distance
