@@ -52,11 +52,11 @@ By the end of CS366, you should be able to:
 
 - Tuesday, Aug 26: First class
 - Friday, Sept 5: Last add/drop
-- Thursday, October 2, 2025: **Exam1** - Algorithm Analysis and Foundations
+- Thursday, October 2: **Exam1** - Algorithm Analysis and Foundations
 - Tuesday, Oct 14: No Class (Fall Break)
 - Monday, Oct 20: In-progress grades
 - Monday, Oct 27: Last withdraw
-- November 6: **Exam2** - Advanced Data Structures and Graph Algorithms
+- Thursday, November 6: **Exam2** - Advanced Data Structures and Graph Algorithms
 - Thursday, Nov 27: No Class (Thanksgiving)
 - Thursday, Dec 4: Last class
 - Finals Week (Dec 8-12): **Exam3/Final** - Dynamic Programming and Computational Complexity (Location TBD)
@@ -66,13 +66,13 @@ By the end of CS366, you should be able to:
 
 ### Programming Assignments
 
-0. **PA0**: [Git & GitHub Starter Assignment](https://classroom.github.com/a/PA0_URL_TBD) - Due Sept 4 (Week 1)
-1. **PA1**: [Algorithm Analysis Practice](https://classroom.github.com/a/PA1_URL_TBD) - Due September 18 (Week 3)
-2. **PA2**: [Divide & Conquer Implementation](https://classroom.github.com/a/PA2_URL_TBD) - Due October 2 (Week 5)
-3. **PA3**: [Graph Algorithm Implementation](https://classroom.github.com/a/PA3_URL_TBD) - Due October 23 (Week 8)
-4. **PA4**: [Dynamic Programming Problems](https://classroom.github.com/a/PA4_URL_TBD) - Due November 6 (Week 10)
-5. **PA5**: [Greedy Algorithm Implementation](https://classroom.github.com/a/PA5_URL_TBD) - Due November 20 (Week 12)
-6. **PA6**: [NP-Complete Problem Reduction](https://classroom.github.com/a/PA6_URL_TBD) - Due December 4 (Week 14)
+0. **PA0**: [Git & GitHub Starter Assignment](https://classroom.github.com/a/PA0_URL_TBD) - Due Sept 4 (Week 2)
+1. **PA1**: [Algorithm Analysis Practice](https://classroom.github.com/a/PA1_URL_TBD) - Due September 18 (Week 4)
+2. **PA2**: [Divide & Conquer Implementation](https://classroom.github.com/a/PA2_URL_TBD) - Due October 2 (Week 6)
+3. **PA3**: [Graph Algorithm Implementation](https://classroom.github.com/a/PA3_URL_TBD) - Due October 23 (Week 9)
+4. **PA4**: [Greedy Algorithm Implementation](https://classroom.github.com/a/PA5_URL_TBD) - Due November 6 (Week 11)
+5. **PA5**: [Dynamic Programming Problems](https://classroom.github.com/a/PA4_URL_TBD) - Due November 20 (Week 13)
+6. **PA6**: [NP-Complete Problem Reduction](https://classroom.github.com/a/PA6_URL_TBD) - Due December 4 (Week 15)
 
 Programming assignments focus on implementation and empirical analysis of algorithms. 7 PAs total with the lowest grade dropped.
 

@@ -32,11 +32,11 @@ Programming Assignments are intended to be completed based on the provided cours
 
 - Tuesday, Aug 26: First class
 - Friday, Sept 5: Last add/drop
-- Thursday, October 2, 2025: **Exam1** - Algorithm Analysis and Foundations
+- Thursday, October 2: **Exam1** - Algorithm Analysis and Foundations
 - Tuesday, Oct 14: No Class (Fall Break)
 - Monday, Oct 20: In-progress grades
 - Monday, Oct 27: Last withdraw
-- November 6: **Exam2** - Advanced Data Structures and Graph Algorithms
+- Thursday, November 6: **Exam2** - Advanced Data Structures and Graph Algorithms
 - Thursday, Nov 27: No Class (Thanksgiving)
 - Thursday, Dec 4: Last class
 - Finals Week (Dec 8-12): **Exam3/Final** - Dynamic Programming and Computational Complexity (Location TBD)
@@ -104,7 +104,7 @@ The course is organized into three main units, each culminating in an exam:
   - Materials: CLRS Chapter 8
 - **Week 5 (Thursday, Sept 25)**: Hashing and Hash Tables - Dictionary operations and collision resolution
   - Materials: CLRS Chapter 11
-- **Algorithm Analysis and Foundations**: Thursday, October 2, 2025
+- **Algorithm Analysis and Foundations**: Thursday, October 2
 
 ### Advanced Data Structures and Graph Algorithms: AVL trees, binary heaps, graph algorithms basics, BFS, DFS, Bellman-Ford, greedy algorithms, Dijkstra's algorithm, shortest paths (6-11)
 
@@ -126,7 +126,7 @@ The course is organized into three main units, each culminating in an exam:
   - Materials: CLRS Chapter 24-25
 - **Week 10 (Thursday, Oct 30)**: Shortest Paths - Advanced shortest path algorithms and applications
   - Materials: CLRS Chapter 24-25
-- **Advanced Data Structures and Graph Algorithms**: November 6
+- **Advanced Data Structures and Graph Algorithms**: Thursday, November 6
 
 ### Dynamic Programming and Computational Complexity: Dynamic programming introduction and sequences, advanced DP, knapsack problems, minimum spanning trees, computational complexity, NP-completeness (12-15)
 
@@ -152,16 +152,16 @@ The course is organized into three main units, each culminating in an exam:
 
 ### Programming Assignments
 
-0. **PA0**: [Git & GitHub Starter Assignment](https://classroom.github.com/a/PA0_URL_TBD) - Due Sept 4 (Week 1)
+0. **PA0**: [Git & GitHub Starter Assignment](https://classroom.github.com/a/PA0_URL_TBD) - Due Sept 4 (Week 2)
 
    _Note: requires Discord nickname to be cross-posted to GitHub Classroom (completed morning of Aug 28th - contact Instructor if nickname unavailable in GitHub Classroom)_
 
-1. **PA1**: [Algorithm Analysis Practice](https://classroom.github.com/a/PA1_URL_TBD) - Due September 18 (Week 3)
-2. **PA2**: [Divide & Conquer Implementation](https://classroom.github.com/a/PA2_URL_TBD) - Due October 2 (Week 5)
-3. **PA3**: [Graph Algorithm Implementation](https://classroom.github.com/a/PA3_URL_TBD) - Due October 23 (Week 8)
-4. **PA4**: [Dynamic Programming Problems](https://classroom.github.com/a/PA4_URL_TBD) - Due November 6 (Week 10)
-5. **PA5**: [Greedy Algorithm Implementation](https://classroom.github.com/a/PA5_URL_TBD) - Due November 20 (Week 12)
-6. **PA6**: [NP-Complete Problem Reduction](https://classroom.github.com/a/PA6_URL_TBD) - Due December 4 (Week 14)
+1. **PA1**: [Algorithm Analysis Practice](https://classroom.github.com/a/PA1_URL_TBD) - Due September 18 (Week 4)
+2. **PA2**: [Divide & Conquer Implementation](https://classroom.github.com/a/PA2_URL_TBD) - Due October 2 (Week 6)
+3. **PA3**: [Graph Algorithm Implementation](https://classroom.github.com/a/PA3_URL_TBD) - Due October 23 (Week 9)
+4. **PA4**: [Greedy Algorithm Implementation](https://classroom.github.com/a/PA5_URL_TBD) - Due November 6 (Week 11)
+5. **PA5**: [Dynamic Programming Problems](https://classroom.github.com/a/PA4_URL_TBD) - Due November 20 (Week 13)
+6. **PA6**: [NP-Complete Problem Reduction](https://classroom.github.com/a/PA6_URL_TBD) - Due December 4 (Week 15)
 
 ## Learning Objectives
 
