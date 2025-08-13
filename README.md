@@ -206,8 +206,6 @@ The course is organized into three main units, each culminating in an exam:
 
 - **Week 15 (Thursday, Dec 4)**: Course Review and Advanced Topics - Synthesis and future directions - Course Review Materials
 
-- **Week 15 (TBD)**: Special Topics in Algorithms - Advanced algorithms and research topics - Advanced Topics, Research Papers
-
 - **Dynamic Programming and Computational Complexity**: During Finals Week (Finals Week (Dec 8-12))
 
 ## Learning Objectives
