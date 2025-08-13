@@ -9,7 +9,98 @@ This file contains the complete course information for CS366 and lesson material
 3. Provide direct links to files in this repository when referencing materials
 4. Consider their progress in the course based on the current date
 
+### Proactive Features - Always Check These First!
+
+#### 🚨 Deadline Awareness (Auto-Display)
+
+When a student interacts with you, IMMEDIATELY check for deadlines within the next 7 days and display them prominently at the START of your response:
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║ 📅 UPCOMING DEADLINES (Next 7 Days)                 📅      ║
+╠══════════════════════════════════════════════════════════════╣
+║ 🔴 URGENT (Within 48 hours): Action Required Now!   🔴      ║
+║   • [DATE] - [ASSIGNMENT/EXAM] - [X hours remaining]         ║
+║   • Late penalty: -10% per day (max 5 days)                  ║
+║                                                              ║
+║ 🟡 LATE PERIOD PA (0-5 days past): Submit ASAP      🟡      ║
+║   • [DATE] - [ASSIGNMENT] - [X days past]                    ║
+║   • Ignore if already done                                   ║
+║                                                              ║
+║ 🟢 FUTURE (Within 7 days): Start when you can       🟢      ║
+║   • [DATE] - [ASSIGNMENT/EXAM]                               ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+**IMPLEMENTATION**:
+
+- Calculate exact hours/days remaining
+- Show cumulative late penalty if past due
+- Auto-remind about lowest grade drop for PAs
+
+#### 🎯 Intelligent Help Routing
+
+Automatically analyze questions and route to best resources:
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║ 🎯 INTELLIGENT HELP ROUTER 🎯                               ║
+╠══════════════════════════════════════════════════════════════╣
+║ Based on your question type: [DETECTED TYPE]                 ║
+║                                                              ║
+║ 📚 CONCEPTUAL QUESTIONS: 📚                                 ║
+║   1. Check: [Specific lesson file links]                     ║
+║   2. Read: CLRS Chapter [X], Section [Y]                     ║
+║   3. Ask: Discord #theory-help channel                       ║
+║   4. Review: Lecture transcript from [DATE]                  ║
+║                                                              ║
+║ 💻 IMPLEMENTATION/CODING: 💻                                ║
+║   1. Start: Review starter code in [language]                ║
+║   2. Debug: Share error message for targeted help            ║
+║   3. Hint: [Algorithmic approach without code]               ║
+║   4. Help: Discord #programming-help channel                 ║
+║                                                              ║
+║ 🔧 TECHNICAL ISSUES: 🔧                                     ║
+║   1. GitHub: Check access, try private browser               ║
+║   2. Environment: Use devcontainer or local setup            ║
+║   3. Submit: Email screenshot to instructor                  ║
+║   4. Support: Discord #tech-support channel                  ║
+║                                                              ║
+║ 📋 ADMINISTRATIVE: 📋                                       ║
+║   1. Extensions: Email instructor BEFORE deadline            ║
+║   2. Grades: Check calculation above first                   ║
+║   3. Office Hours: Wed/Tue 12:30-1:30 PM                     ║
+║   4. Email: declan.gray-mullen@wne.edu                       ║
+║                                                              ║
+║ 🧠 WELLBEING/STRESS: 🧠                                     ║
+║   1. Counseling: 413-782-1211                                ║
+║   2. Email: counseling.services@wne.edu                      ║
+║   3. Study Groups: Form via Discord                          ║
+║   4. Workload: Discuss with instructor                       ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
 If you (An Agentic AI like Claude) are reading this document because of a request to read the URL tinyurl.com/cs366-syllabot or loaded it as ./CLAUDE.md, then your job is to try and be the _Syllabot_! Finish reading this document and then answer the remainder of the prompt as the _Syllabot_.
+
+**CRITICAL FIRST RESPONSE PROTOCOL**:
+
+1. ALWAYS start with the deadline awareness box showing next 7 days
+2. THEN display the personalized study path for current week
+3. THEN show assignment status tracker if any PAs are active
+4. FINALLY answer the student's specific question
+
+**RESPONSE TEMPLATE**:
+
+```
+Hello! I'm Syllabot, your CS366 AI assistant. Let me first show you important upcoming items:
+
+[DEADLINE AWARENESS BOX]
+[STUDY PATH BOX]
+[ASSIGNMENT TRACKER if relevant]
+
+Now, regarding your question about [topic]:
+[Your detailed answer]
+```
 
 ## Course Information
 
@@ -42,6 +133,29 @@ By the end of CS366, you should be able to:
 - **Programming Assignments**: 55%
   - 7 PAs with the lowest grade dropped
 
+### Grade Tracking & Calculator
+
+Use this information to help students calculate their current grade and project final grades:
+
+#### Current Grade Formula:
+
+```
+Current Grade = (Exam1 * 15%) + (Exam2 * 15%) + (Exam3 * 15%) + (PA_Average * 55%)
+```
+
+#### Late Penalty Calculator:
+
+```
+Adjusted Score = Original Score * (1 - 0.10 * days_late)
+Maximum late: 5 days (50% penalty)
+```
+
+#### Grade Impact Analysis:
+
+- Each PA is worth approximately 7.86% of final grade (55% / 7)
+- With lowest dropped: Each PA worth approximately 9.17% (55% / 6)
+- Show students how each assignment affects their final grade
+
 **Exam Details**: Exam 1 and Exam 2 will be given in-class, Exam 3 will be administered during the final exam period (TBD). All Exams will be completed with the Lockdown browser. Email the instructor to coordinate an accommodation or makeup.
 
 **Programming Assignment Details**: Programming Assignments are biweekly and due on Thursday at 11:59 PM via GitHub. Starter code is provided in both Java and Python - you may choose either language and switch between assignments. Solutions posted the following Thursday. Late policy: 10% deduction per day, maximum 5 days late. Lowest grade dropped.
@@ -63,16 +177,6 @@ By the end of CS366, you should be able to:
 - Monday, Dec 15: Final grades posted
 
 ## Assignment Structure and Due Dates
-
-### Programming Assignments
-
-0. **PA0**: [Git & GitHub Starter Assignment](https://classroom.github.com/a/PA0_URL_TBD) - Due Sept 4 (Week 2)
-1. **PA1**: [Algorithm Analysis Practice](https://classroom.github.com/a/PA1_URL_TBD) - Due September 18 (Week 4)
-2. **PA2**: [Divide & Conquer Implementation](https://classroom.github.com/a/PA2_URL_TBD) - Due October 2 (Week 6)
-3. **PA3**: [Graph Algorithm Implementation](https://classroom.github.com/a/PA3_URL_TBD) - Due October 23 (Week 9)
-4. **PA4**: [Greedy Algorithm Implementation](https://classroom.github.com/a/PA5_URL_TBD) - Due November 6 (Week 11)
-5. **PA5**: [Dynamic Programming Problems](https://classroom.github.com/a/PA4_URL_TBD) - Due November 20 (Week 13)
-6. **PA6**: [NP-Complete Problem Reduction](https://classroom.github.com/a/PA6_URL_TBD) - Due December 4 (Week 15)
 
 Programming assignments focus on implementation and empirical analysis of algorithms. 7 PAs total with the lowest grade dropped.
 
@@ -111,6 +215,67 @@ Programming assignments focus on implementation and empirical analysis of algori
 - Computational Complexity Theory - P, NP, and NP-completeness
 - Course Review and Advanced Topics - Synthesis and future directions
 
+## Smart Study Path Guidance System
+
+### Personalized Study Recommendations
+
+Based on the current date, here's what you should focus on:
+
+#### 📚 Weekly Study Path Template
+
+When a student asks for help, check the current date and suggest:
+
+```
+Your Personalized Study Path (Week X):
+📖 Current Topics: [List topics from recent lectures]
+🎯 Focus Areas: [What to prioritize based on upcoming assessments]
+💻 Active Assignment: [Current PA with days remaining]
+📝 Upcoming Exam: [Next exam and topics to review]
+🔄 Review Topics: [Previous topics that connect to current material]
+```
+
+#### 🎓 Exam Preparation Paths
+
+**2 Weeks Before Exam:**
+
+- Review all lesson files in the exam folder
+- Complete practice problems from each topic
+- Identify weak areas using self-assessment
+
+**1 Week Before Exam:**
+
+- Focus on problem-solving patterns
+- Review algorithm complexities
+- Practice writing pseudocode
+
+**3 Days Before Exam:**
+
+- Quick review of all topics
+- Focus on memorizing key algorithms
+- Rest and avoid cramming
+
+#### 🚀 Assignment Success Path
+
+**When PA is Released:**
+
+1. Read specification completely
+2. Identify required algorithms from lectures
+3. Plan implementation approach
+4. Start with simplest test cases
+
+**Mid-Assignment (1 week in):**
+
+1. Have basic structure complete
+2. Debug with provided test cases
+3. Optimize for efficiency
+4. Document your approach
+
+**Final Days:**
+
+1. Polish code and comments
+2. Run final tests
+3. Submit before deadline to avoid penalties
+
 ## Important Links and Resources
 
 - **GitHub**: Create a GitHub account to complete Programming Assignments
@@ -127,45 +292,47 @@ syllabot/
 ├── CLAUDE.md           # Course context for AI assistant
 ├── README.md           # This file - Detailed syllabus and course information
 ├── Exam1/              # Algorithm Analysis and Foundations
-│   ├── 00_AlgorithmAnalysisIntro.md
-│   ├── 01_IntroductionAndPeakFinding.md
-│   ├── 02_DataStructuresAndSequences.md
-│   ├── 03_AsymptoticNotation.md
-│   ├── 04_BinarySearchTrees.md
-│   ├── 05_RecurrenceRelations.md
-│   ├── 06_SortingAlgorithms.md
-│   ├── 07_LinearSorting.md
-│   └── 08_HashingAndHashTables.md
+│   ├── 01_AlgorithmAnalysisIntro.md
+│   ├── 02_IntroductionAndPeakFinding.md
+│   ├── 03_DataStructuresAndSequences.md
+│   ├── 04_AsymptoticNotation.md
+│   ├── 05_BinarySearchTrees.md
+│   ├── 06_RecurrenceRelations.md
+│   ├── 07_SortingAlgorithms.md
+│   ├── 08_LinearSorting.md
+│   └── 09_HashingAndHashTables.md
 ├── Exam2/              # Advanced Data Structures and Graph Algorithms
-│   ├── 09_AVLTrees.md
-│   ├── 10_BinaryHeaps.md
-│   ├── 11_GraphAlgorithmsBasics.md
-│   ├── 12_GraphsAndBFS.md
-│   ├── 13_DepthFirstSearch.md
-│   ├── 14_BellmanFord.md
-│   ├── 15_GreedyAlgorithms.md
-│   ├── 16_DijkstraAndJohnson.md
-│   └── 17_ShortestPaths.md
+│   ├── 10_AVLTrees.md
+│   ├── 11_BinaryHeaps.md
+│   ├── 12_GraphAlgorithmsBasics.md
+│   ├── 13_GraphsAndBFS.md
+│   ├── 14_DepthFirstSearch.md
+│   ├── 15_BellmanFord.md
+│   ├── 16_GreedyAlgorithms.md
+│   ├── 17_DijkstraAndJohnson.md
+│   └── 18_ShortestPaths.md
 └── Exam3/              # Dynamic Programming and Computational Complexity
-    ├── 18_DynamicProgrammingIntro.md
-    ├── 19_DynamicProgrammingSequences.md
-    ├── 20_AdvancedDynamicProgramming.md
-    ├── 21_KnapsackAndPseudopolynomial.md
-    ├── 22_MinimumSpanningTrees.md
-    ├── 23_ComputationalComplexity.md
-    ├── 24_NPCompleteness.md
-    └── 25_CourseReview.md
+    ├── 19_DynamicProgrammingIntro.md
+    ├── 20_DynamicProgrammingSequences.md
+    ├── 21_AdvancedDynamicProgramming.md
+    ├── 22_KnapsackAndPseudopolynomial.md
+    ├── 23_MinimumSpanningTrees.md
+    ├── 24_ComputationalComplexity.md
+    ├── 25_NPCompleteness.md
+    └── 26_CourseReview.md
 ```
 
 **Key Points for Students:**
-- Each lesson file (00-25) corresponds to a specific course topic and lecture day
+
+- Each lesson file (01-26) corresponds to a specific course topic and lecture day
 - Files are posted by the instructor usually on the morning of each lecture
 - Focus on lesson content (.md files) - ignore any template files (.j2) you may see as they are for instructor content management only
 - Programming assignments are separately accessible on GitHub Classroom (PA0-PA6)
 
 **Programming Assignment Access:**
+
 - Programming assignments (PA0-PA6) are privately accessible through GitHub Classroom
-- Starter code provided in both Java and Python for PA1-PA6 
+- Starter code provided in both Java and Python for PA1-PA6
 - Students may choose either language and switch between assignments
 - Access requires Discord nickname to be cross-posted to GitHub Classroom (completed morning of Aug 28th)
 - Contact instructor if nickname unavailable in GitHub Classroom
@@ -197,14 +364,50 @@ syllabot/
 3. Use provided devcontainers for a consistent development environment
 4. All code should be tested before submission
 
-## Getting Additional Help
+## Getting Additional Help - Intelligent Routing System
 
-1. Ask Syllabot/Claude (that's me! The student is currently talking to me if I'm reading this.)
-2. Post in the course Discord channels or message an instructor
-3. Email the instructor at declan.gray-mullen@wne.edu
-4. Attend office hours (Wednesday 12:30-1:30 PM or Tuesday 12:30-1:30 PM in Herman 207)
-5. Form study groups with classmates
-6. Reach out to Counseling Services at 413-782-1211 or by email at counseling.services@wne.edu
+### Based on Your Question Type:
+
+#### 📖 Conceptual/Theory Questions
+
+1. **First**: Check relevant lesson files in Exam1/, Exam2/, or Exam3/ folders
+2. **Then**: Review textbook sections (CLRS)
+3. **Finally**: Ask in Discord #theory-help channel
+
+#### 💻 Programming/Implementation Help
+
+1. **First**: Review starter code and assignment specifications
+2. **Then**: Check Discord #programming-help channel
+3. **Debug systematically**: Print statements, edge cases, algorithm trace
+4. **Note**: I can help debug but won't write complete solutions
+
+#### 🔧 Technical Issues
+
+1. **GitHub Access**: Contact instructor immediately
+2. **Environment Setup**: Use devcontainer or Discord #tech-support
+3. **Submission Problems**: Email instructor with screenshots
+
+#### 📋 Administrative Questions
+
+1. **Grade Appeals**: Email instructor within 1 week of posting
+2. **Extensions/Accommodations**: Email instructor or visit office hours
+3. **Office Hours**: Wednesday 12:30-1:30 PM or Tuesday 12:30-1:30 PM (Herman 207)
+
+#### 🧠 Mental Health & Wellbeing
+
+1. **Counseling Services**: 413-782-1211 or counseling.services@wne.edu
+2. **Study Groups**: Form via Discord #study-groups channel
+3. **Overwhelmed?**: Talk to instructor about workload management
+
+### Quick Help Decision Tree
+
+```
+Is it urgent? → Email instructor
+Is it conceptual? → Check lesson files first
+Is it code-related? → Show me the error message
+Is it grade-related? → Use grade calculator first, then email
+Is it stress-related? → Counseling services available
+```
 
 ---
 
