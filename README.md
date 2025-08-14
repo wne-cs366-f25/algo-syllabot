@@ -19,18 +19,18 @@
 
 ## Syllabot - AI Syllabus Assistant for Students
 
-Claude can be configured have to full context of the course schedule, materials, and assignments as they are posted. Follow the instructions in Course Information and ask:
+Claude is be configured to load the course context including the schedule, materials, and assignments as they are posted. Follow the instructions in Course Information and ask:
 
 - "What's the next assignment due?"
 - "Explain the Master Theorem"
 - "Help me implement Dijkstra's algorithm"
 - "What topics are on Exam 1?"
 
-Programming Assignments are intended to be completed based on the provided course material and in-class lectures. Remember Claude make mistakes and can only accomplish what you can describe. Use algorithms for learning at your own risk.
+Programming Assignments are intended to be completed based on the provided course material and in-class lectures. Remember Claude makes mistakes and can only accomplish what you can describe. Use algorithms for learning at your own risk.
 
-### 🚨 Proactive Features When Using Syllabot
+### 🤖 Proactive Features When Using Syllabot
 
-#### 🔴 Automatic Deadline Alerts (Always Displayed First!)
+#### ⚠️ Automatic Deadline Alerts (Always Displayed First!)
 
 Syllabot AUTOMATICALLY displays upcoming deadlines at the START of EVERY interaction:
 
@@ -50,7 +50,7 @@ Syllabot AUTOMATICALLY displays upcoming deadlines at the START of EVERY interac
 
 #### 📚 Smart Study Path Recommendations (Personalized Weekly Plans)
 
-Syllabot generates a CUSTOM study plan based on:
+Syllabot can generate a CUSTOM study plan based on:
 
 - **Current Week**: What lecture topics are active
 - **Your Progress**: Which assignments you've mentioned
@@ -66,6 +66,20 @@ Syllabot generates a CUSTOM study plan based on:
 - Friday: Break
 - Weekend: Exam prep (2 hrs)
 
+#### 🎯 Smart Help Router with Auto-Detection
+
+Syllabot automatically detects your question type and provides targeted help:
+
+```
+---
+INTELLIGENT HELP ROUTING - AUTO-DETECTED
+---
+Question Category: [AUTO-DETECTED]
+Confidence Level: [HIGH/MEDIUM/LOW]
+Recommended Path: [PRIMARY → SECONDARY → TERTIARY]
+---
+```
+
 ## Critical Dates
 
 - Tuesday, Aug 26: First class
@@ -79,28 +93,6 @@ Syllabot generates a CUSTOM study plan based on:
 - Thursday, Dec 4: Last class
 - Finals Week (Dec 8-12): **Exam3/Final** - Dynamic Programming and Computational Complexity (Location TBD) 📝
 - Monday, Dec 15: Final grades posted
-
-### 📅 Enhanced Deadline Tracking Dashboard
-
-**AUTOMATIC DISPLAY ON EVERY INTERACTION:**
-
-```
-╔═════════════════════════════════════════════════════════════╗
-║ 📅 YOUR DEADLINES - NEXT 7 DAYS                     📅     ║
-╠═════════════════════════════════════════════════════════════╣
-║ 🔴 URGENT (< 48 hrs til due): Action Required Now!  🔴     ║
-║ 🟡 LATE PERIOD PA (0-5 days past): Submit ASAP      🟡     ║
-║ 🟢 FUTURE (< 7 days til due): Start when you can    🟢     ║
-╚═════════════════════════════════════════════════════════════╝
-```
-
-**Real-Time Information Displayed:**
-
-- ⏰ Exact hours/days remaining
-- 💰 Late penalty calculation
-- 📈 Grade impact percentage
-- ✅ Submission status tracking
-- 🎯 Strategic recommendations
 
 ## Repository Structure
 
@@ -212,12 +204,12 @@ The course is organized into three main units, each culminating in an exam:
 
 By the end of this course, students will be able to:
 
-- Analyze the time and space complexity of algorithms
-- Design efficient algorithms using divide-and-conquer, greedy, and dynamic programming paradigms
-- Implement and use fundamental data structures
-- Solve graph problems using appropriate algorithms
-- Understand computational complexity and identify intractable problems
-- Apply algorithmic thinking to real-world problems
+1. Analyze algorithm complexity using asymptotic notation
+1. Design efficient algorithms using divide & conquer, greedy and dynamic programming paradigms
+1. Implement and analyze fundamental data structures
+1. Understand computational complexity theory and NP-completeness
+1. Apply algorithmic thinking to solve real-world problems
+
 
 ### Assessment Details
 
@@ -293,21 +285,7 @@ Once I have a copy of your approved accommodations from SAS we can plan a time t
 
 ## Support
 
-### 🎯 Smart Help Router with Auto-Detection 🤖
-
-**Syllabot automatically detects your question type and provides targeted help:**
-
-```
-╔═════════════════════════════════════════════════════════════╗
-║ INTELLIGENT HELP ROUTING - AUTO-DETECTED                    ║
-╠═════════════════════════════════════════════════════════════╣
-║ Question Category: [AUTO-DETECTED]                          ║
-║ Confidence Level: [HIGH/MEDIUM/LOW]                         ║
-║ Recommended Path: [PRIMARY → SECONDARY → TERTIARY]          ║
-╚═════════════════════════════════════════════════════════════╝
-```
-
-### 📞 Contact Priority Guide
+### 📞 Contact Guide
 
 1. **Urgent (Same Day Response Needed)**
 
@@ -321,7 +299,7 @@ Once I have a copy of your approved accommodations from SAS we can plan a time t
 
 3. **In-Depth Help**
 
-   - Office hours: Wed/Tue 12:30-1:30 PM (Herman 207)
+   - Office hours: Wednesday 12:30-1:30 PM (Herman 207), Tuesday 12:30-1:30 PM (Herman 207)
    - Schedule appointment via email
 
 4. **Study Support**
