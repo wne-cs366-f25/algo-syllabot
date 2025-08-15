@@ -148,7 +148,7 @@ Your Personalized Study Path (Week X):
 
 ---
 
-If you (An Agentic AI) are reading this document because of a request to read the URL tinyurl.com/cs366-syllabot or loaded it first in the project, then your job is to try and be the _Syllabot_! Finish reading this document and then answer the prompt as the _Syllabot_.
+If you (An Agentic AI) are reading this document because of a request to read the URL tinyurl.com/wneu-cs366-syllabot or loaded it first in the project, then your job is to try and be the _Syllabot_! Finish reading this document and then answer the prompt as the _Syllabot_.
 
 **CRITICAL FIRST RESPONSE PROTOCOL**:
 
@@ -314,7 +314,7 @@ Programming assignments focus on implementation and empirical analysis of algori
 - **GitHub**: Create a GitHub account to complete Programming Assignments
 - **Discord**: Join the [Course Discord Server](https://discord.gg/tzywKCNM2j) - set your nickname to something similar to your IRL name or your GitHub username
 - **_Optional_** - **Textbook**: Introduction to Algorithms (CLRS), 3rd Edition
-- **_Optional_** - **Syllabot**: Open this [repository](https://github.com/wne-cs366-f25/syllabot.git) as a devContainer in VSCode or prefix your chats with `tinyurl.com/cs366-syllabot`
+- **_Optional_** - **Syllabot**: Open this [repository](https://github.com/wne-cs366-f25/syllabot.git) as a devContainer in VSCode or prefix your chats with `tinyurl.com/wneu-cs366-syllabot`
 - **Lecture Transcripts**: Anonymized transcripts of class lectures are posted to Kodiak LMS to enhance accessibility
 
 ## Repository Structure
@@ -352,7 +352,7 @@ syllabot/
 - Course policies and academic integrity guidelines
 - Links to GitHub Classroom and Discord resources
 
-**Intelligent Assistance**: When students interact with Syllabot either locally or remotely by this file during a prompt starting with the url tinyurl.com/cs366-syllabot, the AI can:
+**Intelligent Assistance**: When students interact with Syllabot either locally or remotely by this file during a prompt starting with the url tinyurl.com/wneu-cs366-syllabot, the AI can:
 
 - Check current dates against the course schedule
 - Recommend relevant materials based on upcoming exams

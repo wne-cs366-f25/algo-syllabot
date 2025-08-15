@@ -15,7 +15,7 @@
 - **_Optional_** - 💵💵 / 🏫 / 🏴‍☠️ - **Textbook**: Introduction to Algorithms (CLRS), 3rd Edition
 - **_Optional_** - **Syllabot**: AI course assistant with two access methods:
   - 💵 / 💵💵💵 **Claude Code (Recommended)**: Open this repository as a devContainer in VSCode, install the 'Dev Containers' extension if needed, then run `claude` in terminal. Requires Claude Pro account.
-  - 🆓 **Claude Web Interface**: Use the free web interface by adding `tinyurl.com/cs366-syllabot` to the beginning of your prompt. Works with free accounts.
+  - 🆓 **Claude Web Interface**: Use the free web interface by adding `tinyurl.com/wneu-cs366-syllabot` to the beginning of your prompt. Works with free accounts.
 
 ## Syllabot - AI Syllabus Assistant for Students
 
