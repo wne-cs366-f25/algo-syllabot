@@ -2,15 +2,15 @@
 # See https://ai.intellectronica.net/ruler for documentation.
 
 # Configure the most popular coding agents for CS366 Syllabot
-# Note: Claude agent is disabled to preserve the original CLAUDE.md file
-default_agents = ["copilot", "cursor", "aider", "windsurf", "cline", "openhands"]
+# Note: Claude agent uses a different output path to preserve the original CLAUDE.md file
+default_agents = ["claude", "copilot", "cursor", "aider", "windsurf", "cline", "openhands"]
 
 # --- Agent Specific Configurations ---
 # Enable the most popular coding agents with their default paths
 
 [agents.claude]
-enabled = false
-# output_path = "CLAUDE.md"  # Disabled to preserve original file
+enabled = true
+output_path = "CLAUDE_RULER.md"  # Different path to preserve original CLAUDE.md
 
 [agents.copilot]
 enabled = true
