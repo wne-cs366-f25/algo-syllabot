@@ -10,7 +10,7 @@ default_agents = ["claude", "copilot", "cursor", "aider", "windsurf", "cline", "
 
 [agents.claude]
 enabled = true
-output_path = "CLAUDE_RULER.md"  # Different path to preserve original CLAUDE.md
+output_path = "CLAUDE.md"  # Different path to preserve original CLAUDE.md
 
 [agents.copilot]
 enabled = true

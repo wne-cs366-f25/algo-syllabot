@@ -13,9 +13,9 @@
 - **GitHub**: Create a GitHub account to complete Programming Assignments
 - **Discord**: Join the [Course Discord Server](https://discord.gg/tzywKCNM2j) - set your nickname to something similar to your IRL name or your GitHub username
 - **_Optional_** - 💵💵 / 🏫 / 🏴‍☠️ - **Textbook**: Introduction to Algorithms (CLRS), 3rd Edition
-- **_Optional_** - **Syllabot**: AI course assistant with two access methods:
-  - 💵 / 💵💵💵 **Claude Code (Recommended)**: Open this repository as a devContainer in VSCode, install the 'Dev Containers' extension if needed, then run `claude` in terminal. Requires Claude Pro account.
-  - 🆓 **Claude Web Interface**: Use the free web interface by adding `tinyurl.com/wneu-cs366-syllabot` to the beginning of your prompt. Works with free accounts.
+- **_Optional_** - **Syllabot**: AI course assistant with multiple access methods:
+  - 💵 / 💵💵💵 **Claude Code**: Open this repository as a devContainer in VSCode, install the 'Dev Containers' extension if needed, then run [`claude`](https://github.com/anthropics/claude-code) in terminal. Requires Claude Pro account.
+  - 🆓 / 💵 **Gemini CLI**: Google's [`gemini`](https://github.com/google-gemini/gemini-cli) cli is also configured as the Syllabot in this devContainer. Works with free tier personal Google accounts.
 
 ## Syllabot - AI Syllabus Assistant for Students
 
