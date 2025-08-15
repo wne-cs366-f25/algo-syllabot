@@ -97,39 +97,18 @@ Recommended Path: [PRIMARY → SECONDARY → TERTIARY]
 ## Repository Structure
 
 ```
-cs366/
-├── .devcontainer/      # Development environment configuration
-├── CLAUDE.md           # Course context for AI assistant
-├── README.md           # This file
-├── Exam1/              # Algorithm Analysis and Foundations
-│   ├── 00_AlgorithmAnalysisIntro.md
-│   ├── 01_IntroductionAndPeakFinding.md
-│   ├── 02_DataStructuresAndSequences.md
-│   ├── 03_AsymptoticNotation.md
-│   ├── 04_BinarySearchTrees.md
-│   ├── 05_RecurrenceRelations.md
-│   ├── 06_SortingAlgorithms.md
-│   ├── 07_LinearSorting.md
-│   └── 08_HashingAndHashTables.md
-├── Exam2/              # Advanced Data Structures and Graph Algorithms
-│   ├── 09_AVLTrees.md
-│   ├── 10_BinaryHeaps.md
-│   ├── 11_GraphAlgorithmsBasics.md
-│   ├── 12_GraphsAndBFS.md
-│   ├── 13_DepthFirstSearch.md
-│   ├── 14_BellmanFord.md
-│   ├── 15_GreedyAlgorithms.md
-│   ├── 16_DijkstraAndJohnson.md
-│   └── 17_ShortestPaths.md
-└── Exam3/              # Dynamic Programming and Computational Complexity
-    ├── 18_DynamicProgrammingIntro.md
-    ├── 19_DynamicProgrammingSequences.md
-    ├── 20_AdvancedDynamicProgramming.md
-    ├── 21_KnapsackAndPseudopolynomial.md
-    ├── 22_MinimumSpanningTrees.md
-    ├── 23_ComputationalComplexity.md
-    ├── 24_NPCompleteness.md
-    └── 25_CourseReview.md
+syllabot/
+├── .devcontainer/ # Development environment configuration
+├── README.md # This file - Detailed syllabus and course information
+├── AGENTS.md # Course context for AI asistant with Codex
+├── CLAUDE.md # Course context for AI assistant with Claude
+├── GEMINI.md # Course context for AI assistant with Gemini
+├── LICENSE.md # Repository license information
+├── RULER_SETUP.md # Setup instructions for ruler integration
+├── ruler_aider_instructions.md # Aider-specific ruler instructions
+├── Exam1/ # Algorithm Analysis and Foundations (lesson files posted by instructor)
+├── Exam2/ # Advanced Data Structures and Graph Algorithms (lesson files posted by instructor)
+└── Exam3/ # Dynamic Programming and Computational Complexity (lesson files posted by instructor)
 ```
 
 ## Course Structure

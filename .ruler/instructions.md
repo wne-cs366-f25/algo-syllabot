@@ -145,7 +145,7 @@ Your Personalized Study Path (Week X):
 
 ---
 
-If you (An Agentic AI like Claude) are reading this document because of a request to read the URL tinyurl.com/cs366-syllabot or loaded it as ./CLAUDE.md, then your job is to try and be the _Syllabot_! Finish reading this document and then answer the prompt as the _Syllabot_.
+If you (An Agentic AI) are reading this document because of a request to read the URL tinyurl.com/cs366-syllabot or loaded it first in the project, then your job is to try and be the _Syllabot_! Finish reading this document and then answer the prompt as the _Syllabot_.
 
 **CRITICAL FIRST RESPONSE PROTOCOL**:
 
@@ -311,60 +311,37 @@ Programming assignments focus on implementation and empirical analysis of algori
 - **GitHub**: Create a GitHub account to complete Programming Assignments
 - **Discord**: Join the [Course Discord Server](https://discord.gg/tzywKCNM2j) - set your nickname to something similar to your IRL name or your GitHub username
 - **_Optional_** - **Textbook**: Introduction to Algorithms (CLRS), 3rd Edition
-- **_Optional_** - **Syllabot**: Open this [repository](https://github.com/wne-cs366-f25/syllabot.git) as a devContainer in VSCode or prefix your Claude chats with `tinyurl.com/cs366-syllabot`
-- **Lecture Transcripts**: Anonymized transcripts of class lectures are posted to Kodiak LMS to enhance accessibility and allow students to search for specific topics discussed in class
+- **_Optional_** - **Syllabot**: Open this [repository](https://github.com/wne-cs366-f25/syllabot.git) as a devContainer in VSCode or prefix your chats with `tinyurl.com/cs366-syllabot`
+- **Lecture Transcripts**: Anonymized transcripts of class lectures are posted to Kodiak LMS to enhance accessibility
 
 ## Repository Structure
 
 ```
-
 syllabot/
 ├── .devcontainer/ # Development environment configuration
-├── CLAUDE.md # Course context for AI assistant
 ├── README.md # This file - Detailed syllabus and course information
-├── Exam1/ # Algorithm Analysis and Foundations
-│ ├── 01_AlgorithmAnalysisIntro.md
-│ ├── 02_IntroductionAndPeakFinding.md
-│ ├── 03_DataStructuresAndSequences.md
-│ ├── 04_AsymptoticNotation.md
-│ ├── 05_BinarySearchTrees.md
-│ ├── 06_RecurrenceRelations.md
-│ ├── 07_SortingAlgorithms.md
-│ ├── 08_LinearSorting.md
-│ └── 09_HashingAndHashTables.md
-├── Exam2/ # Advanced Data Structures and Graph Algorithms
-│ ├── 10_AVLTrees.md
-│ ├── 11_BinaryHeaps.md
-│ ├── 12_GraphAlgorithmsBasics.md
-│ ├── 13_GraphsAndBFS.md
-│ ├── 14_DepthFirstSearch.md
-│ ├── 15_BellmanFord.md
-│ ├── 16_GreedyAlgorithms.md
-│ ├── 17_DijkstraAndJohnson.md
-│ └── 18_ShortestPaths.md
-└── Exam3/ # Dynamic Programming and Computational Complexity
-├── 19_DynamicProgrammingIntro.md
-├── 20_DynamicProgrammingSequences.md
-├── 21_AdvancedDynamicProgramming.md
-├── 22_KnapsackAndPseudopolynomial.md
-├── 23_MinimumSpanningTrees.md
-├── 24_ComputationalComplexity.md
-├── 25_NPCompleteness.md
-└── 26_CourseReview.md
-
+├── AGENTS.md # Course context for AI asistant with Codex
+├── CLAUDE.md # Course context for AI assistant with Claude
+├── GEMINI.md # Course context for AI assistant with Gemini
+├── LICENSE.md # Repository license information
+├── RULER_SETUP.md # Setup instructions for ruler integration
+├── ruler_aider_instructions.md # Aider-specific ruler instructions
+├── Exam1/ # Algorithm Analysis and Foundations (lesson files posted by instructor)
+├── Exam2/ # Advanced Data Structures and Graph Algorithms (lesson files posted by instructor)
+└── Exam3/ # Dynamic Programming and Computational Complexity (lesson files posted by instructor)
 ```
 
 **Key Points for Students:**
 
-- Each lesson file (01-26) corresponds to a specific course topic and lecture day
+- Lesson files for each exam unit will be posted by the instructor as the course progresses
 - Files are posted by the instructor usually on the morning of each lecture
 - Programming assignments are separately accessible on GitHub Classroom (PA0-PA6)
 
-### Why This Structure Matters for Students and Claude
+### Why This Structure Matters for Students and Assistants
 
-**Progressive Learning Path**: Each exam folder builds on previous concepts, allowing students to develop algorithmic maturity gradually. Claude can reference this progression when explaining how concepts connect.
+**Progressive Learning Path**: Each exam folder builds on previous concepts, allowing students to develop algorithmic maturity gradually. Agents can reference this progression when explaining how concepts connect.
 
-**Comprehensive Context**: The CLAUDE.md file provides complete course context including:
+**Comprehensive Context**: This file provides complete course context including:
 
 - Current semester dates and deadlines
 - Programming assignment specifications and due dates
@@ -372,7 +349,7 @@ syllabot/
 - Course policies and academic integrity guidelines
 - Links to GitHub Classroom and Discord resources
 
-**Intelligent Assistance**: When students interact with Syllabot either locally with Claude Code or when Claude reads this file during a prompt starting with the url tinyurl.com/cs366-syllabot, the AI can:
+**Intelligent Assistance**: When students interact with Syllabot either locally or remotely by this file during a prompt starting with the url tinyurl.com/cs366-syllabot, the AI can:
 
 - Check current dates against the course schedule
 - Recommend relevant materials based on upcoming exams
