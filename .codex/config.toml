@@ -1,0 +1,5 @@
+
+[mcp_servers.example]
+command = "node"
+args = ["/path/to/mcp-server.js"]
+env = { NODE_ENV = "production" }
