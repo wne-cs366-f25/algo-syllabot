@@ -23,8 +23,6 @@
         "eamodio.gitlens",
         "ms-python.python",
         "ms-python.vscode-pylance",
-        "ms-vscode.cpptools",
-        "anthropic.claude-code",
         "bierner.markdown-mermaid",
         "Anthropic.claude-code"
       ],
