@@ -342,13 +342,13 @@ By the end of CS366, you should be able to:
 
 | Title | Due Date | Topics |
 |-------|----------|--------|
-| GitHub & Environment Starter Assignment | Sept 4 | Clone and work with GitHub Classroom repositories, Use basic Git commands for version control, Navigate development container environments, Follow course submission procedures |
-| Algorithm Analysis Practice | September 18 |  |
-| Divide & Conquer Implementation | October 2 |  |
-| Graph Algorithm Implementation | October 23 |  |
-| Greedy Algorithm Implementation | November 6 |  |
-| Dynamic Programming Problems | November 20 |  |
-| NP-Complete Problem Reduction | December 4 |  |
+| PA0 - GitHub & Environment Starter Assignment | Sept 4 | Clone and work with GitHub Classroom repositories, Use basic Git commands for version control, Navigate development container environments, Follow course submission procedures |
+| PA1 - Algorithm Analysis Practice | September 18 |  |
+| PA2 - Divide & Conquer Implementation | October 2 |  |
+| PA3 - Graph Algorithm Implementation | October 23 |  |
+| PA4 - Greedy Algorithm Implementation | November 6 |  |
+| PA5 - Dynamic Programming Problems | November 20 |  |
+| PA6 - NP-Complete Problem Reduction | December 4 |  |
 
 
 **Note**: Assignment links will be activated as the course progresses. Check Discord #announcements for notifications when assignments are posted, or visit your GitHub Classroom Dashboard (linked on Kodiak).
