@@ -10,8 +10,8 @@
 - **Office Hours**:
   - Wednesday 12:30-1:30 PM (Herman 207)
   - Tuesday 12:30-1:30 PM (Herman 207)
-- **GitHub**: Create a GitHub account to complete Programming Assignments
-- **Discord**: Join the [Course Discord Server](https://discord.gg/tzywKCNM2j) - set your nickname to something similar to your IRL name or your GitHub username
+- **GitHub**: Create a GitHub account to complete Programming Assignments - submit your username on Kodiak
+- **Discord**: Join the [Course Discord Server](https://discord.gg/tzywKCNM2j) - set your nickname to something similar to your IRL name
 - **_Optional_** - 💵💵 / 🏫 / 🏴‍☠️ - **Textbook**: Introduction to Algorithms (CLRS), 3rd Edition
 - **_Optional_** - **Syllabot**: AI course assistant with multiple access methods:
   - 💵 / 💵💵💵 **Claude Code**: Open this repository as a devContainer in VSCode, install the 'Dev Containers' extension if needed, then run [`claude`](https://github.com/anthropics/claude-code) in terminal. Requires Claude Pro account.
@@ -28,9 +28,7 @@ Claude is be configured to load the course context including the schedule, mater
 
 Programming Assignments are intended to be completed based on the provided course material and in-class lectures. Remember Claude makes mistakes and can only accomplish what you can describe. Use algorithms for learning at your own risk.
 
-### 🤖 Proactive Features When Using Syllabot
-
-#### ⚠️ Automatic Deadline Alerts (Always Displayed First!)
+### ⚠️ Proactive Automatic Deadline Alerts (Always Displayed First!)
 
 Syllabot AUTOMATICALLY displays upcoming deadlines at the START of EVERY interaction:
 
@@ -48,38 +46,6 @@ Syllabot AUTOMATICALLY displays upcoming deadlines at the START of EVERY interac
 - Grade impact for each item (% of final grade)
 - Auto-reminder about lowest PA grade drop
 
-#### 📚 Smart Study Path Recommendations (Personalized Weekly Plans)
-
-Syllabot can generate a CUSTOM study plan based on:
-
-- **Current Week**: What lecture topics are active
-- **Your Progress**: Which assignments you've mentioned
-- **Time Management**: Daily study schedule recommendations
-- **Practice Focus**: Specific problems for current topics
-
-**Weekly Schedule Template:**
-
-- Monday: Review previous week (1 hr)
-- Tuesday: Lecture + notes review (2 hrs)
-- Wednesday: PA work (3 hrs)
-- Thursday: Lecture + PA submit if deadline (3 hrs)
-- Friday: Break
-- Weekend: Exam prep (2 hrs)
-
-#### 🎯 Smart Help Router with Auto-Detection
-
-Syllabot automatically detects your question type and provides targeted help:
-
-```
----
-INTELLIGENT HELP ROUTING - AUTO-DETECTED
----
-Question Category: [AUTO-DETECTED]
-Confidence Level: [HIGH/MEDIUM/LOW]
-Recommended Path: [PRIMARY → SECONDARY → TERTIARY]
----
-```
-
 ## Critical Dates
 
 - Tuesday, Aug 26: First class
@@ -88,7 +54,7 @@ Recommended Path: [PRIMARY → SECONDARY → TERTIARY]
 - Tuesday, Oct 14: No Class (Fall Break)
 - Monday, Oct 20: In-progress grades
 - Monday, Oct 27: Last withdraw
-- Thursday, November 6: **Exam2** - Advanced Data Structures and Graph Algorithms 📝
+- Thursday, November 6: **Exam2** - Advanced Data Structures 📝
 - Thursday, Nov 27: No Class (Thanksgiving)
 - Thursday, Dec 4: Last class
 - Finals Week (Dec 8-12): **Exam3/Final** - Dynamic Programming and Computational Complexity (Location TBD) 📝
@@ -104,14 +70,31 @@ syllabot/
 ├── CLAUDE.md # Course context for AI assistant with Claude
 ├── GEMINI.md # Course context for AI assistant with Gemini
 ├── LICENSE.md # Repository license information
-├── RULER_SETUP.md # Setup instructions for ruler integration
-├── ruler_aider_instructions.md # Aider-specific ruler instructions
 ├── Exam1/ # Algorithm Analysis and Foundations (lesson files posted by instructor)
 ├── Exam2/ # Advanced Data Structures and Graph Algorithms (lesson files posted by instructor)
 └── Exam3/ # Dynamic Programming and Computational Complexity (lesson files posted by instructor)
 ```
 
-## Course Structure
+**Key Notes:**
+
+- Lesson files for each exam unit will be posted by the instructor as the course progresses
+- Files are posted by the instructor usually by the morning of each lecture
+- Programming assignments are separately accessible on GitHub Classroom (PA0-PAB)
+
+## Learning Objectives
+
+By the end of this course, students will be able to:
+
+1. **Algorithm Analysis Mastery** -- Analyze the time and space complexity of algorithms using asymptotic notation (Big O, Theta, Omega) and understand trade-offs between different algorithmic approaches
+1. **Algorithmic Design Paradigms** -- Design efficient algorithms using divide-and-conquer, greedy, and dynamic programming paradigms, including recursive problem decomposition and correctness proofs
+1. **Data Structure Implementation and Analysis** -- Implement and analyze fundamental data structures (BSTs, heaps, hash tables, graphs) with deep understanding of their operations, complexities, and appropriate use cases
+1. **Computational Complexity Theory** -- Understand computational complexity theory including P, NP, and NP-completeness classifications, and classify problems by their computational difficulty with reduction techniques
+1. **Real-World Problem Solving** -- Apply algorithmic thinking to solve complex real-world computational problems, selecting appropriate algorithms and data structures for given constraints and requirements
+1. **Graph Algorithm Proficiency** -- Implement and analyze graph algorithms (BFS, DFS, shortest paths, MST) with comprehensive understanding of graph representations and algorithmic applications
+1. **Advanced Optimization Techniques** -- Master greedy algorithm design and dynamic programming approaches to optimization problems, recognizing when each paradigm is optimal and understanding correctness proofs
+
+
+## Course Schedule
 
 The course is organized into three main units, each culminating in an exam:
 
@@ -137,7 +120,7 @@ The course is organized into three main units, each culminating in an exam:
 
 - **Algorithm Analysis and Foundations**: Thursday, October 2
 
-### Advanced Data Structures and Graph Algorithms: AVL trees, binary heaps, graph algorithms basics, BFS, DFS, Bellman-Ford, greedy algorithms, Dijkstra's algorithm, shortest paths (6-11)
+### Advanced Data Structures: AVL trees, binary heaps, graph algorithms basics, BFS, DFS, Bellman-Ford, greedy algorithms, Dijkstra's algorithm, shortest paths (6-11)
 
 - **Week 6 (Tuesday, Sept 30)**: Balanced Binary Search Trees (AVL) - Rotations and height guarantees - CLRS Chapter 13
 
@@ -157,7 +140,7 @@ The course is organized into three main units, each culminating in an exam:
 
 - **Week 10 (Thursday, Oct 30)**: Shortest Paths - Advanced shortest path algorithms and applications - CLRS Chapter 24-25
 
-- **Advanced Data Structures and Graph Algorithms**: Thursday, November 6
+- **Advanced Data Structures**: Thursday, November 6
 
 ### Dynamic Programming and Computational Complexity: Dynamic programming introduction and sequences, advanced DP, knapsack problems, minimum spanning trees, computational complexity, NP-completeness (12-15)
 
@@ -179,35 +162,15 @@ The course is organized into three main units, each culminating in an exam:
 
 - **Dynamic Programming and Computational Complexity**: During Finals Week (Finals Week (Dec 8-12))
 
-## Learning Objectives
-
-By the end of this course, students will be able to:
-
-1. Analyze algorithm complexity using asymptotic notation
-1. Design efficient algorithms using divide & conquer, greedy and dynamic programming paradigms
-1. Implement and analyze fundamental data structures
-1. Understand computational complexity theory and NP-completeness
-1. Apply algorithmic thinking to solve real-world problems
-
-
 ### Assessment Details
 
 Exam 1 and Exam 2 will be given in-class, Exam 3 will be administered during the final exam period (TBD). All Exams will be completed with the Lockdown browser. Email the instructor to coordinate an accommodation or makeup.
 
 Programming Assignments are biweekly and due on Thursday at 11:59 PM via GitHub. Starter code is provided in both Java and Python - you may choose either language and switch between assignments. Solutions posted the following Thursday.
 
-#### Late Policy with Auto-Calculation
+**Grading Scale**:
 
-- **1 day late**: 90% of earned score
-- **2 days late**: 80% of earned score
-- **3 days late**: 70% of earned score
-- **4 days late**: 60% of earned score
-- **5 days late**: 50% of earned score
-- **>5 days**: Not accepted (0%)
-
-Lowest PA grade automatically dropped.
-
-Grades will be posted to Kodiak with feedback available on GitHub within 2 weeks of the original assignment deadline. Exams grades will be posted ASAP.
+- A: 93-100% | A-: 90-92% | B+: 87-89% | B: 83-86% | B-: 80-82% | C+: 77-79% | C: 73-76% | C-: 70-72% | D+: 67-69% | D: 60-66% | F: Below 60%
 
 ## Appeals
 
@@ -228,13 +191,13 @@ being posted.
 All programming assignments must be your own work. You may:
 
 - Discuss concepts with classmates
-- Use Claude for understanding concepts
+- Use Agents for understanding concepts
 - Reference the textbook and course materials
 
 You may NOT:
 
 - Copy code from other students
-- Use Claude to write complete solutions
+- Use Agents to write complete solutions
 - Submit work from previous semesters
 
 ## Student Accessibility Services

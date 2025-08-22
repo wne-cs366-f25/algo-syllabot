@@ -7,7 +7,7 @@ This document provides a comprehensive overview of all course content organized 
 | Exam              | Date             | Weight             | Topics Covered     |
 | ----------------- | ---------------- | ------------------ | ------------------ |
 | Algorithm Analysis and Foundations | Thursday, October 2 | 15% | Algorithm analysis, peak finding, data structures, asymptotic notation, binary search trees, recurrence relations, sorting algorithms, linear sorting, hashing and hash tables |
-| Advanced Data Structures and Graph Algorithms | Thursday, November 6 | 15% | AVL trees, binary heaps, graph algorithms basics, BFS, DFS, Bellman-Ford, greedy algorithms, Dijkstra's algorithm, shortest paths |
+| Advanced Data Structures | Thursday, November 6 | 15% | AVL trees, binary heaps, graph algorithms basics, BFS, DFS, Bellman-Ford, greedy algorithms, Dijkstra's algorithm, shortest paths |
 | Dynamic Programming and Computational Complexity | Finals Week (Dec 8-12) | 15% | Dynamic programming introduction and sequences, advanced DP, knapsack problems, minimum spanning trees, computational complexity, NP-completeness |
 
 ## Algorithm Analysis and Foundations (15%)
@@ -24,7 +24,7 @@ This document provides a comprehensive overview of all course content organized 
 | 4 | LEC08   | Linear Sorting | Tuesday, Sept 23 |
 | 5 | LEC09   | Hashing and Hash Tables | Thursday, Sept 25 |
 
-## Advanced Data Structures and Graph Algorithms (15%)
+## Advanced Data Structures (15%)
 
 | Week             | Lecture | Title             | Date             |
 | ---------------- | ------- | ----------------- | ---------------- |

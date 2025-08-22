@@ -53,21 +53,21 @@ Based on your question type: [DETECTED TYPE]
 
 📚 CONCEPTUAL QUESTIONS: 📚
   1. Check: [Specific lesson file links]
-  2. Read: CRLS Chapter [X], Section [Y]
-  3. Ask: Discord #forum channel
+  2. Read: CLRS Chapter [X], Section [Y]
+  3. Ask: Discord #algo-forum channel
   4. Review: Lecture transcript from [DATE]
 
 💻 IMPLEMENTATION/CODING: 💻
   1. Start: Review starter code in [language]
   2. Debug: Share error message for targeted help
   3. Hint: [Algorithmic approach without code]
-  4. Help: Discord #forum channel
+  4. Help: Discord #algo-forum channel
 
 🔧 TECHNICAL ISSUES: 🔧
   1. GitHub: Check access, try private browser
   2. Environment: Use devcontainer or local setup
   3. Submit: Email screenshot to instructor
-  4. Support: Discord #forum channel
+  4. Support: Discord #algo-forum channel
 
 📋 ADMINISTRATIVE: 📋
   1. Extensions: Email instructor BEFORE deadline
@@ -187,17 +187,19 @@ If you (An Agentic AI) are reading this document then your job is to try and be 
 
 By the end of CS366, you should be able to:
 
-1. Analyze algorithm complexity using asymptotic notation
-1. Design efficient algorithms using divide & conquer, greedy and dynamic programming paradigms
-1. Implement and analyze fundamental data structures
-1. Understand computational complexity theory and NP-completeness
-1. Apply algorithmic thinking to solve real-world problems
+1. **Algorithm Analysis Mastery** -- Analyze the time and space complexity of algorithms using asymptotic notation (Big O, Theta, Omega) and understand trade-offs between different algorithmic approaches
+1. **Algorithmic Design Paradigms** -- Design efficient algorithms using divide-and-conquer, greedy, and dynamic programming paradigms, including recursive problem decomposition and correctness proofs
+1. **Data Structure Implementation and Analysis** -- Implement and analyze fundamental data structures (BSTs, heaps, hash tables, graphs) with deep understanding of their operations, complexities, and appropriate use cases
+1. **Computational Complexity Theory** -- Understand computational complexity theory including P, NP, and NP-completeness classifications, and classify problems by their computational difficulty with reduction techniques
+1. **Real-World Problem Solving** -- Apply algorithmic thinking to solve complex real-world computational problems, selecting appropriate algorithms and data structures for given constraints and requirements
+1. **Graph Algorithm Proficiency** -- Implement and analyze graph algorithms (BFS, DFS, shortest paths, MST) with comprehensive understanding of graph representations and algorithmic applications
+1. **Advanced Optimization Techniques** -- Master greedy algorithm design and dynamic programming approaches to optimization problems, recognizing when each paradigm is optimal and understanding correctness proofs
 
 
 ## Assessment
 
 - **Algorithm Analysis and Foundations**: 15%
-- **Advanced Data Structures and Graph Algorithms**: 15%
+- **Advanced Data Structures**: 15%
 - **Dynamic Programming and Computational Complexity**: 15%
 - **Programming Assignments**: 55%
   - 7 PAs with the lowest grade dropped
@@ -243,7 +245,7 @@ Maximum late: 5 days (50% penalty)
 - Tuesday, Oct 14: No Class (Fall Break)
 - Monday, Oct 20: In-progress grades
 - Monday, Oct 27: Last withdraw
-- Thursday, November 6: **Exam2** - Advanced Data Structures and Graph Algorithms
+- Thursday, November 6: **Exam2** - Advanced Data Structures
 - Thursday, Nov 27: No Class (Thanksgiving)
 - Thursday, Dec 4: Last class
 - Finals Week (Dec 8-12): **Exam3/Final** - Dynamic Programming and Computational Complexity (Location TBD)
@@ -259,8 +261,8 @@ Programming assignments focus on implementation and empirical analysis of algori
 - Late policy: 10% deduction per day, max 5 days late
 - Focus on implementation of different algorithmic paradigms
 - Programming assignments (PA0-PA6) are privately accessible through GitHub Classroom
-- Access requires Discord nickname to be cross-posted to GitHub Classroom (completed morning of Aug 28th)
-- Contact instructor if nickname unavailable in GitHub Classroom
+- Access requires GitHub usernames to be cross-posted to GitHub Classroom (completed morning of Aug 28th)
+- Contact instructor if username unavailable in GitHub Classroom
 
 ## Course Topics by Exam
 
@@ -280,7 +282,7 @@ Programming assignments focus on implementation and empirical analysis of algori
 
 
 
-### Advanced Data Structures and Graph Algorithms Topics: AVL trees, binary heaps, graph algorithms basics, BFS, DFS, Bellman-Ford, greedy algorithms, Dijkstra's algorithm, shortest paths
+### Advanced Data Structures Topics: AVL trees, binary heaps, graph algorithms basics, BFS, DFS, Bellman-Ford, greedy algorithms, Dijkstra's algorithm, shortest paths
 
 - Balanced Binary Search Trees (AVL) - Rotations and height guarantees
 
@@ -317,7 +319,7 @@ Programming assignments focus on implementation and empirical analysis of algori
 - **GitHub**: Create a GitHub account to complete Programming Assignments
 - **Discord**: Join the [Course Discord Server](https://discord.gg/tzywKCNM2j) - set your nickname to something similar to your IRL name or your GitHub username
 - **_Optional_** - **Textbook**: Introduction to Algorithms (CLRS), 3rd Edition
-- **_Optional_** - **Syllabot**: Open this [repository](https://github.com/wne-cs366-f25/syllabot.git) as a devContainer in VSCode and start your prefered AI agent
+- **_Optional_** - **Syllabot**: Open this [repository](https://github.com/wne-cs366-f25/algo-syllabot.git) as a devContainer in VSCode and start your prefered AI agent
 - **Lecture Transcripts**: Anonymized transcripts of class lectures are posted to Kodiak LMS to enhance accessibility
 
 ## Repository Structure
