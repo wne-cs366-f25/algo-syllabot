@@ -196,6 +196,169 @@ By the end of CS366, you should be able to:
 7. **Advanced Optimization Techniques** - Master greedy algorithm design and dynamic programming approaches to optimization problems, recognizing when each paradigm is optimal and understanding correctness proofs
 
 
+## Course Schedule
+
+### Week 1: Aug 26, 28
+**Topic**: Course Introduction & Algorithm Fundamentals
+
+**Paradigm**: Foundations - Analysis
+
+
+
+
+
+### Week 2: Sep 2, 4
+**Topic**: Peak Finding & Data Structures
+
+**Paradigm**: Divide & Conquer - Search
+
+**Assignment**: PA0 due (Sep 4)
+
+
+
+### Week 3: Sep 9, 11
+**Topic**: Asymptotic Notation & Binary Search Trees
+
+**Paradigm**: Tree Algorithms - Data Structures
+
+
+
+
+
+### Week 4: Sep 16, 18
+**Topic**: Recurrence Relations & Sorting Algorithms
+
+**Paradigm**: Divide & Conquer - Sorting
+
+**Assignment**: PA1 due (Sep 18)
+
+
+
+### Week 5: Sep 23, 25
+**Topic**: Linear Sorting & Hash Tables
+
+**Paradigm**: Hashing - Data Structures
+
+
+
+
+
+### Week 6: Sep 30, Oct 2
+**Topic**: Balanced BSTs & Exam 1
+
+**Paradigm**: Tree Algorithms - Data Structures
+
+**Assignment**: PA2 due (Oct 2), Exam 1 (Oct 2)
+
+
+
+### Week 7: Oct 7, 9
+**Topic**: Binary Heaps & Graph Fundamentals
+
+**Paradigm**: Tree/Graph Algorithms - Data Structures
+
+
+
+
+
+### Week 8: Oct 16
+**Topic**: Graph Representations & Search Algorithms
+
+**Paradigm**: Graph Algorithms - Search
+
+
+
+
+
+### Week 9: Oct 21, 23
+**Topic**: Shortest Paths & Greedy Algorithms
+
+**Paradigm**: Greedy - Optimization
+
+**Assignment**: PA3 due (Oct 23)
+
+
+
+### Week 10: Oct 28, 30
+**Topic**: Advanced Shortest Paths
+
+**Paradigm**: Graph Algorithms - Optimization
+
+
+
+
+
+### Week 11: Nov 4, 6
+**Topic**: Dynamic Programming Introduction & Exam 2
+
+**Paradigm**: Dynamic Programming - Optimization
+
+**Assignment**: PA4 due (Nov 6), Exam 2 (Nov 6)
+
+
+
+### Week 12: Nov 11, 13
+**Topic**: DP on Sequences & Advanced DP
+
+**Paradigm**: Dynamic Programming - Optimization
+
+
+
+
+
+### Week 13: Nov 18, 20
+**Topic**: Knapsack Problems & Minimum Spanning Trees
+
+**Paradigm**: DP/Greedy - Optimization
+
+**Assignment**: PA5 due (Nov 20)
+
+
+
+### Week 14: Nov 25
+**Topic**: Computational Complexity Theory
+
+**Paradigm**: Complexity Theory - Theory
+
+
+
+
+
+### Week 15: Dec 2, 4
+**Topic**: NP-Completeness & Course Review
+
+**Paradigm**: Complexity Theory - Theory
+
+**Assignment**: PA6 due (Dec 4)
+
+
+
+### Week 16: Dec 8-12
+**Topic**: Final Exam Week
+
+
+
+**Assignment**: Exam 3 (Finals Week)
+
+
+
+
+
+## Programming Assignments
+
+| Title | Due Date | Topics |
+|-------|----------|--------|
+| GitHub & Environment Starter Assignment | Sept 4 | Clone and work with GitHub Classroom repositories, Use basic Git commands for version control, Navigate development container environments, Follow course submission procedures |
+| Algorithm Analysis Practice | September 18 |  |
+| Divide & Conquer Implementation | October 2 |  |
+| Graph Algorithm Implementation | October 23 |  |
+| Greedy Algorithm Implementation | November 6 |  |
+| Dynamic Programming Problems | November 20 |  |
+| NP-Complete Problem Reduction | December 4 |  |
+
+
+**Note**: Assignment links will be activated as the course progresses. Check Discord #announcements for notifications when assignments are posted, or visit your GitHub Classroom Dashboard (linked on Kodiak).
+
 ## Assessment
 
 - **Algorithm Analysis and Foundations**: 15%
