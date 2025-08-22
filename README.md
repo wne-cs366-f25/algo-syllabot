@@ -1,12 +1,15 @@
 # Syllabus - CS366: Design & Analysis of Algorithms
 
-### **Fall 2025 - Professor Gray**
+**Fall 2025**
 
 ## Course Information
 
-- **Instructor**: Declan Gray-Mullen - Lecturer - declan.gray-mullen@wne.edu
-- **Prerequisites**: CS200 and CS210
-- **Meeting Times**: Tuesday/Thursday 9:30-10:50 AM (CS366-01) or 11:00 AM-12:20 PM (CS366-03)
+- **Instructor**: CS366 - Lecturer - declan.gray-mullen@wne.edu
+- **Semester**: Fall 2025
+- **Prerequisites**: CS200 & CS210
+- **Sections**:
+  - CS366-01: Tuesday/Thursday 9:30-10:50 AM
+  - CS366-03: Tuesday/Thursday 11:00 AM-12:20 PM
 - **Office Hours**:
   - Wednesday 12:30-1:30 PM (Herman 207)
   - Tuesday 12:30-1:30 PM (Herman 207)
@@ -14,19 +17,21 @@
 - **Discord**: Join the [Course Discord Server](https://discord.gg/tzywKCNM2j) - set your nickname to something similar to your IRL name
 - **_Optional_** - 💵💵 / 🏫 / 🏴‍☠️ - **Textbook**: Introduction to Algorithms (CLRS), 3rd Edition
 - **_Optional_** - **Syllabot**: AI course assistant with multiple access methods:
-  - 💵 / 💵💵💵 **Claude Code**: Open this repository as a devContainer in VSCode, install the 'Dev Containers' extension if needed, then run [`claude`](https://github.com/anthropics/claude-code) in terminal. Requires Claude Pro account.
+  - 💵 / 💵💵💵 **Claude Code**: Open this [repository](https://github.com/wne-cs366-f25/algo-syllabot.git) as a devContainer in VSCode, install the 'Dev Containers' extension if needed, then run [`claude`](https://github.com/anthropics/claude-code) in terminal. Requires Claude Pro account.
   - 🆓 / 💵 **Gemini CLI**: Google's [`gemini`](https://github.com/google-gemini/gemini-cli) cli is also configured as the Syllabot in this devContainer. Works with free tier personal Google accounts.
+  - 🎨 / 🔮 **CoPilot**, **Codex**, **Cursor**, **Windsurf**...: Additional _untested_ AI tooling is also supported with generated context files using [ruler](https://github.com/intellectronica/ruler)
+- **Lecture Transcripts**: Anonymized transcripts of class lectures are posted to Kodiak
 
 ## Syllabot - AI Syllabus Assistant for Students
 
-Claude is be configured to load the course context including the schedule, materials, and assignments as they are posted. Follow the instructions in Course Information and ask:
+Agents (Claude, Gemini, etc....) configured to load the course context including the schedule, materials, and assignments as they are posted. Follow the instructions in Course Information and ask:
 
 - "What's the next assignment due?"
 - "Explain the Master Theorem"
 - "Help me implement Dijkstra's algorithm"
 - "What topics are on Exam 1?"
 
-Programming Assignments are intended to be completed based on the provided course material and in-class lectures. Remember Claude makes mistakes and can only accomplish what you can describe. Use algorithms for learning at your own risk.
+Programming Assignments are intended to be completed based on the provided course material and in-class lectures. Remember AI makes mistakes and can only accomplish what you can describe. Use algorithms for learning at your own risk.
 
 ### ⚠️ Proactive Automatic Deadline Alerts (Always Displayed First!)
 
@@ -48,7 +53,7 @@ Syllabot AUTOMATICALLY displays upcoming deadlines at the START of EVERY interac
 
 ## Critical Dates
 
-- Tuesday, Aug 26: First class
+- Tuesday, August 26: First class
 - Friday, Sept 5: Last add/drop
 - Thursday, October 2: **Exam1** - Algorithm Analysis and Foundations 📝
 - Tuesday, Oct 14: No Class (Fall Break)
@@ -56,7 +61,7 @@ Syllabot AUTOMATICALLY displays upcoming deadlines at the START of EVERY interac
 - Monday, Oct 27: Last withdraw
 - Thursday, November 6: **Exam2** - Advanced Data Structures 📝
 - Thursday, Nov 27: No Class (Thanksgiving)
-- Thursday, Dec 4: Last class
+- Thursday, December 4: Last class
 - Finals Week (Dec 8-12): **Exam3/Final** - Dynamic Programming and Computational Complexity (Location TBD) 📝
 - Monday, Dec 15: Final grades posted
 
@@ -85,84 +90,108 @@ syllabot/
 
 By the end of this course, students will be able to:
 
-1. **Algorithm Analysis Mastery** -- Analyze the time and space complexity of algorithms using asymptotic notation (Big O, Theta, Omega) and understand trade-offs between different algorithmic approaches
-1. **Algorithmic Design Paradigms** -- Design efficient algorithms using divide-and-conquer, greedy, and dynamic programming paradigms, including recursive problem decomposition and correctness proofs
-1. **Data Structure Implementation and Analysis** -- Implement and analyze fundamental data structures (BSTs, heaps, hash tables, graphs) with deep understanding of their operations, complexities, and appropriate use cases
-1. **Computational Complexity Theory** -- Understand computational complexity theory including P, NP, and NP-completeness classifications, and classify problems by their computational difficulty with reduction techniques
-1. **Real-World Problem Solving** -- Apply algorithmic thinking to solve complex real-world computational problems, selecting appropriate algorithms and data structures for given constraints and requirements
-1. **Graph Algorithm Proficiency** -- Implement and analyze graph algorithms (BFS, DFS, shortest paths, MST) with comprehensive understanding of graph representations and algorithmic applications
-1. **Advanced Optimization Techniques** -- Master greedy algorithm design and dynamic programming approaches to optimization problems, recognizing when each paradigm is optimal and understanding correctness proofs
+1. **Algorithm Analysis Mastery** - Analyze the time and space complexity of algorithms using asymptotic notation (Big O, Theta, Omega) and understand trade-offs between different algorithmic approaches
+2. **Algorithmic Design Paradigms** - Design efficient algorithms using divide-and-conquer, greedy, and dynamic programming paradigms, including recursive problem decomposition and correctness proofs
+3. **Data Structure Implementation and Analysis** - Implement and analyze fundamental data structures (BSTs, heaps, hash tables, graphs) with deep understanding of their operations, complexities, and appropriate use cases
+4. **Computational Complexity Theory** - Understand computational complexity theory including P, NP, and NP-completeness classifications, and classify problems by their computational difficulty with reduction techniques
+5. **Real-World Problem Solving** - Apply algorithmic thinking to solve complex real-world computational problems, selecting appropriate algorithms and data structures for given constraints and requirements
+6. **Graph Algorithm Proficiency** - Implement and analyze graph algorithms (BFS, DFS, shortest paths, MST) with comprehensive understanding of graph representations and algorithmic applications
+7. **Advanced Optimization Techniques** - Master greedy algorithm design and dynamic programming approaches to optimization problems, recognizing when each paradigm is optimal and understanding correctness proofs
 
 
 ## Course Schedule
 
-The course is organized into three main units, each culminating in an exam:
+### Week 1: Aug 26, 28
+**Topic**: Course Introduction & Algorithm Fundamentals
 
-### Algorithm Analysis and Foundations: Algorithm analysis, peak finding, data structures, asymptotic notation, binary search trees, recurrence relations, sorting algorithms, linear sorting, hashing and hash tables (0-5)
+### Week 2: Sep 2, 4
+**Topic**: Peak Finding & Data Structures
 
-- **Week 1 (Thursday, Aug 28)**: Algorithm Introduction - Problem-solving approaches and complexity basics - CLRS Chapter 1-2
+**Assignment**: PA0 due (Sep 4)
 
-- **Week 2 (Tuesday, Sept 2)**: Introduction and Peak Finding - Algorithmic thinking and divide-and-conquer - CLRS Chapter 3
+### Week 3: Sep 9, 11
+**Topic**: Asymptotic Notation & Binary Search Trees
 
-- **Week 2 (Thursday, Sept 4)**: Data Structures and Sequences - Arrays, linked lists, and dynamic arrays - CLRS Chapter 10-11
+### Week 4: Sep 16, 18
+**Topic**: Recurrence Relations & Sorting Algorithms
 
-- **Week 2 (Tuesday, Sept 9)**: Asymptotic Notation - Big O, Theta, and Omega analysis - CLRS Chapter 3
+**Assignment**: PA1 due (Sep 18)
 
-- **Week 3 (Thursday, Sept 11)**: Binary Search Trees - BST operations and tree traversals - CLRS Chapter 12
+### Week 5: Sep 23, 25
+**Topic**: Linear Sorting & Hash Tables
 
-- **Week 3 (Tuesday, Sept 16)**: Recurrence Relations - Solving recurrences and the Master Theorem - CLRS Chapter 4
+### Week 6: Sep 30, Oct 2
+**Topic**: Balanced BSTs & Exam 1
 
-- **Week 4 (Thursday, Sept 18)**: Sorting Algorithms - Insertion sort, merge sort, and analysis - CLRS Chapter 2, 6
+**Assignment**: PA2 due (Oct 2), Exam 1 (Oct 2)
 
-- **Week 4 (Tuesday, Sept 23)**: Linear Sorting - Counting sort, radix sort, and lower bounds - CLRS Chapter 8
+### Week 7: Oct 7, 9
+**Topic**: Binary Heaps & Graph Fundamentals
 
-- **Week 5 (Thursday, Sept 25)**: Hashing and Hash Tables - Dictionary operations and collision resolution - CLRS Chapter 11
+### Week 8: Oct 16
+**Topic**: Graph Representations & Search Algorithms
 
-- **Algorithm Analysis and Foundations**: Thursday, October 2
+### Week 9: Oct 21, 23
+**Topic**: Shortest Paths & Greedy Algorithms
 
-### Advanced Data Structures: AVL trees, binary heaps, graph algorithms basics, BFS, DFS, Bellman-Ford, greedy algorithms, Dijkstra's algorithm, shortest paths (6-11)
+**Assignment**: PA3 due (Oct 23)
 
-- **Week 6 (Tuesday, Sept 30)**: Balanced Binary Search Trees (AVL) - Rotations and height guarantees - CLRS Chapter 13
+### Week 10: Oct 28, 30
+**Topic**: Advanced Shortest Paths
 
-- **Week 7 (Tuesday, Oct 7)**: Binary Heaps and Priority Queues - Heap operations and heap sort - CLRS Chapter 6
+### Week 11: Nov 4, 6
+**Topic**: Dynamic Programming Introduction & Exam 2
 
-- **Week 7 (Thursday, Oct 9)**: Graph Algorithms Basics - Graph fundamentals and representations - CLRS Chapter 22
+**Assignment**: PA4 due (Nov 6), Exam 2 (Nov 6)
 
-- **Week 8 (Tuesday, Oct 14)**: Graph Representations and BFS - Graph basics and breadth-first search - CLRS Chapter 22
+### Week 12: Nov 11, 13
+**Topic**: DP on Sequences & Advanced DP
 
-- **Week 8 (Thursday, Oct 16)**: Depth-First Search and Applications - DFS and topological sort - CLRS Chapter 22
+### Week 13: Nov 18, 20
+**Topic**: Knapsack Problems & Minimum Spanning Trees
 
-- **Week 9 (Tuesday, Oct 21)**: Bellman-Ford Algorithm - Shortest paths with negative weights - CLRS Chapter 24
+**Assignment**: PA5 due (Nov 20)
 
-- **Week 9 (Thursday, Oct 23)**: Greedy Algorithms - Greedy paradigm and optimization techniques - CLRS Chapter 16
+### Week 14: Nov 25
+**Topic**: Computational Complexity Theory
 
-- **Week 10 (Tuesday, Oct 28)**: Dijkstra's and Johnson's Algorithms - Efficient shortest path algorithms - CLRS Chapter 24-25
+### Week 15: Dec 2, 4
+**Topic**: NP-Completeness & Course Review
 
-- **Week 10 (Thursday, Oct 30)**: Shortest Paths - Advanced shortest path algorithms and applications - CLRS Chapter 24-25
+**Assignment**: PA6 due (Dec 4)
 
-- **Advanced Data Structures**: Thursday, November 6
+### Week 16: Dec 8-12
+**Topic**: Final Exam Week
 
-### Dynamic Programming and Computational Complexity: Dynamic programming introduction and sequences, advanced DP, knapsack problems, minimum spanning trees, computational complexity, NP-completeness (12-15)
+**Assignment**: Exam 3 (Finals Week)
 
-- **Week 11 (Tuesday, Nov 4)**: Introduction to Dynamic Programming - Memoization and tabulation - CLRS Chapter 15
 
-- **Week 12 (Tuesday, Nov 11)**: DP on Sequences - LCS, LIS, and edit distance - CLRS Chapter 15
 
-- **Week 12 (Thursday, Nov 13)**: Advanced Dynamic Programming - Matrix chain, Floyd-Warshall, and tree DP - CLRS Chapter 15, 25
+## Programming Assignments
 
-- **Week 13 (Tuesday, Nov 18)**: Knapsack and Pseudopolynomial Algorithms - Optimization with constraints - CLRS Chapter 15
+| Title | Due Date |
+|-------|----------|
+| Git & GitHub Starter Assignment | Sept 4 |
+| Algorithm Analysis Practice | September 18 |
+| Divide & Conquer Implementation | October 2 |
+| Graph Algorithm Implementation | October 23 |
+| Greedy Algorithm Implementation | November 6 |
+| Dynamic Programming Problems | November 20 |
+| NP-Complete Problem Reduction | December 4 |
 
-- **Week 13 (Thursday, Nov 20)**: Minimum Spanning Trees - Kruskal's and Prim's algorithms - CLRS Chapter 23
 
-- **Week 14 (Tuesday, Nov 25)**: Computational Complexity Theory - P, NP, and computational hardness - CLRS Chapter 34
+## Examinations
 
-- **Week 15 (Tuesday Dec 2)**: NP-Completeness - NP-complete problems and reductions - CLRS Chapter 34
+### Algorithm Analysis and Foundations: Thursday, October 2
+Algorithm analysis, peak finding, data structures, asymptotic notation, binary search trees, recurrence relations, sorting algorithms, linear sorting, hashing and hash tables
 
-- **Week 15 (Thursday, Dec 4)**: Course Review and Advanced Topics - Synthesis and future directions - Course Review Materials
+### Advanced Data Structures: Thursday, November 6
+AVL trees, binary heaps, graph algorithms basics, BFS, DFS, Bellman-Ford, greedy algorithms, Dijkstra's algorithm, shortest paths
 
-- **Dynamic Programming and Computational Complexity**: During Finals Week (Finals Week (Dec 8-12))
+### Dynamic Programming and Computational Complexity: Finals Week (Dec 8-12)
+Dynamic programming introduction and sequences, advanced DP, knapsack problems, minimum spanning trees, computational complexity, NP-completeness 
 
-### Assessment Details
+## Grading
 
 Exam 1 and Exam 2 will be given in-class, Exam 3 will be administered during the final exam period (TBD). All Exams will be completed with the Lockdown browser. Email the instructor to coordinate an accommodation or makeup.
 
@@ -171,6 +200,13 @@ Programming Assignments are biweekly and due on Thursday at 11:59 PM via GitHub.
 **Grading Scale**:
 
 - A: 93-100% | A-: 90-92% | B+: 87-89% | B: 83-86% | B-: 80-82% | C+: 77-79% | C: 73-76% | C-: 70-72% | D+: 67-69% | D: 60-66% | F: Below 60%
+
+### Grading Policies
+
+- **Late Policy**: 10% per day, maximum 5 days late
+- **Collaboration**: Discussion encouraged, code must be individual
+- **Academic Integrity**: All code must be original or properly cited
+
 
 ## Appeals
 
@@ -211,20 +247,6 @@ Email: accessibility@wne.edu
 
 Once I have a copy of your approved accommodations from SAS we can plan a time to connect to discuss your accommodation needs. In addition, if you are approved for exam accommodations, please consult with me at least two weeks before any scheduled exam date to confirm the testing arrangements.
 
-## Informal Prerequisites
-
-- **Programming experience** (preferably in Java or Python)
-
-  - You've implemented an assignment using recursion before, completed a few methods/classes for homework but maybe never worked on a project without starter code. You can identify 'clean' code and have a concept of an 'efficient' implementation.
-
-- **Discrete mathematics**
-
-  - You've performed long-multiplication before, can recognize the summation symbol and know a few binary operators. You've solved a problem that used set notation, functions, or boolean logic. You've written your own or understood the explanation of a formal proof.
-
-- **Basic data structures knowledge**
-
-  - You know the difference between a stack and list, know a balanced binary search tree runs in O(log n) and can order constant, linear, and exponential pseudocode algorithms.
-
 ## Support
 
 ### 📞 Contact Guide
@@ -247,7 +269,7 @@ Once I have a copy of your approved accommodations from SAS we can plan a time t
 4. **Study Support**
 
    - Form study groups via Discord
-   - Use Syllabot for practice problems
+   - Use Syllabot for reccommendations
 
 5. **Mental Health Support**
    - Counseling Services: 413-782-1211
