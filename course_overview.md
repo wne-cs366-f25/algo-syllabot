@@ -6,8 +6,8 @@ This document provides a comprehensive overview of all course content organized 
 
 | Exam              | Date             | Weight             | Topics Covered     |
 | ----------------- | ---------------- | ------------------ | ------------------ |
-| Algorithm Analysis and Foundations | Thursday, October 2 | 15% | Algorithm analysis, peak finding, data structures, asymptotic notation, binary search trees, recurrence relations, sorting algorithms, linear sorting, hashing and hash tables |
-| Advanced Data Structures | Thursday, November 6 | 15% | AVL trees, binary heaps, graph algorithms basics, BFS, DFS, Bellman-Ford, greedy algorithms, Dijkstra's algorithm, shortest paths |
+| Algorithm Analysis and Foundations | Thursday, Oct 2 | 15% | Algorithm analysis, peak finding, data structures, asymptotic notation, binary search trees, recurrence relations, sorting algorithms, linear sorting, hashing and hash tables |
+| Advanced Data Structures | Thursday, Nov 6 | 15% | AVL trees, binary heaps, graph algorithms basics, BFS, DFS, Bellman-Ford, greedy algorithms, Dijkstra's algorithm, shortest paths |
 | Dynamic Programming and Computational Complexity | Finals Week (Dec 8-12) | 15% | Dynamic programming introduction and sequences, advanced DP, knapsack problems, minimum spanning trees, computational complexity, NP-completeness |
 
 ## Algorithm Analysis and Foundations (15%)
@@ -55,7 +55,7 @@ This document provides a comprehensive overview of all course content organized 
 
 | Assignment | Title           | Due Date           | Week           |
 | ---------- | --------------- | ------------------ | -------------- |
-| PA0        | Git & GitHub Starter Assignment | Sept 4 | 2 |
+| PA0        | GitHub & Environment Starter Assignment | Sept 4 | 2 |
 | PA1        | Algorithm Analysis Practice | September 18 | 4 |
 | PA2        | Divide & Conquer Implementation | October 2 | 6 |
 | PA3        | Graph Algorithm Implementation | October 23 | 9 |

@@ -55,20 +55,20 @@ Syllabot AUTOMATICALLY displays upcoming deadlines at the START of EVERY interac
 
 - Tuesday, August 26: First class
 - Friday, Sept 5: Last add/drop
-- Thursday, October 2: **Exam1** - Algorithm Analysis and Foundations 📝
+- Thursday, Oct 2: **Exam1** - Algorithm Analysis and Foundations 📝
 - Tuesday, Oct 14: No Class (Fall Break)
 - Monday, Oct 20: In-progress grades
 - Monday, Oct 27: Last withdraw
-- Thursday, November 6: **Exam2** - Advanced Data Structures 📝
+- Thursday, Nov 6: **Exam2** - Advanced Data Structures 📝
 - Thursday, Nov 27: No Class (Thanksgiving)
-- Thursday, December 4: Last class
+- Thursday, Dec 4: Last class
 - Finals Week (Dec 8-12): **Exam3/Final** - Dynamic Programming and Computational Complexity (Location TBD) 📝
 - Monday, Dec 15: Final grades posted
 
 ## Repository Structure
 
 ```
-syllabot/
+algo-syllabot/
 ├── .devcontainer/ # Development environment configuration
 ├── README.md # This file - Detailed syllabus and course information
 ├── AGENTS.md # Course context for AI asistant with Codex
@@ -84,11 +84,11 @@ syllabot/
 
 - Lesson files for each exam unit will be posted by the instructor as the course progresses
 - Files are posted by the instructor usually by the morning of each lecture
-- Programming assignments are separately accessible on GitHub Classroom (PA0-PAB)
+- Programming assignments are separately accessible on GitHub Classroom (PA0-PA6)
 
 ## Learning Objectives
 
-By the end of this course, students will be able to:
+By the end of CS366, you should be able to:
 
 1. **Algorithm Analysis Mastery** - Analyze the time and space complexity of algorithms using asymptotic notation (Big O, Theta, Omega) and understand trade-offs between different algorithmic approaches
 2. **Algorithmic Design Paradigms** - Design efficient algorithms using divide-and-conquer, greedy, and dynamic programming paradigms, including recursive problem decomposition and correctness proofs
@@ -171,7 +171,7 @@ By the end of this course, students will be able to:
 
 | Title | Due Date |
 |-------|----------|
-| Git & GitHub Starter Assignment | Sept 4 |
+| GitHub & Environment Starter Assignment | Sept 4 |
 | Algorithm Analysis Practice | September 18 |
 | Divide & Conquer Implementation | October 2 |
 | Graph Algorithm Implementation | October 23 |
@@ -182,20 +182,22 @@ By the end of this course, students will be able to:
 
 ## Examinations
 
-### Algorithm Analysis and Foundations: Thursday, October 2
+### Algorithm Analysis and Foundations: Thursday, Oct 2 (15%)
 Algorithm analysis, peak finding, data structures, asymptotic notation, binary search trees, recurrence relations, sorting algorithms, linear sorting, hashing and hash tables
 
-### Advanced Data Structures: Thursday, November 6
+### Advanced Data Structures: Thursday, Nov 6 (15%)
 AVL trees, binary heaps, graph algorithms basics, BFS, DFS, Bellman-Ford, greedy algorithms, Dijkstra's algorithm, shortest paths
 
-### Dynamic Programming and Computational Complexity: Finals Week (Dec 8-12)
+### Dynamic Programming and Computational Complexity: Finals Week (Dec 8-12) (15%)
 Dynamic programming introduction and sequences, advanced DP, knapsack problems, minimum spanning trees, computational complexity, NP-completeness 
 
 ## Grading
 
-Exam 1 and Exam 2 will be given in-class, Exam 3 will be administered during the final exam period (TBD). All Exams will be completed with the Lockdown browser. Email the instructor to coordinate an accommodation or makeup.
-
-Programming Assignments are biweekly and due on Thursday at 11:59 PM via GitHub. Starter code is provided in both Java and Python - you may choose either language and switch between assignments. Solutions posted the following Thursday.
+- **Programming Assignments**: 55% - 7 assignments (PA0-PA6) implementing algorithms (drop lowest)
+- **Exam 1**: 15% - Sorting, divide & conquer, hash tables
+- **Exam 2**: 15% - Graphs, shortest path, BST, greedy, Dijkstra
+- **Final/Exam3**: 15% - Dynamic programming, MSTs, P vs NP
+.
 
 **Grading Scale**:
 

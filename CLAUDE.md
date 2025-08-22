@@ -238,11 +238,11 @@ Maximum late: 5 days (50% penalty)
 
 - Tuesday, Aug 26: First class
 - Friday, Sept 5: Last add/drop
-- Thursday, October 2: **Exam1** - Algorithm Analysis and Foundations
+- Thursday, Oct 2: **Exam1** - Algorithm Analysis and Foundations
 - Tuesday, Oct 14: No Class (Fall Break)
 - Monday, Oct 20: In-progress grades
 - Monday, Oct 27: Last withdraw
-- Thursday, November 6: **Exam2** - Advanced Data Structures
+- Thursday, Nov 6: **Exam2** - Advanced Data Structures
 - Thursday, Nov 27: No Class (Thanksgiving)
 - Thursday, Dec 4: Last class
 - Finals Week (Dec 8-12): **Exam3/Final** - Dynamic Programming and Computational Complexity (Location TBD)
@@ -322,7 +322,7 @@ Programming assignments focus on implementation and empirical analysis of algori
 ## Repository Structure
 
 ```
-syllabot/
+algo-syllabot/
 ├── .devcontainer/ # Development environment configuration
 ├── README.md # This file - Detailed syllabus and course information
 ├── AGENTS.md # Course context for AI asistant with Codex
