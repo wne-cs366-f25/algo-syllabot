@@ -41,48 +41,6 @@ When a student interacts with you, IMMEDIATELY check for deadlines within the ne
 - Calculate exact hours/days remaining
 - Show cumulative late penalty if past due
 
-### 🎯 Intelligent Help Routing (if relevant)
-
-Automatically analyze questions and route to best resources if they apply:
-
-```
----
-🎯 INTELLIGENT HELP ROUTER 🎯
----
-Based on your question type: [DETECTED TYPE]
-
-📚 CONCEPTUAL QUESTIONS: 📚
-  1. Check: [Specific lesson file links]
-  2. Read: CLRS Chapter [X], Section [Y]
-  3. Ask: Discord #algo-forum channel
-  4. Review: Lecture transcript from [DATE]
-
-💻 IMPLEMENTATION/CODING: 💻
-  1. Start: Review starter code in [language]
-  2. Debug: Share error message for targeted help
-  3. Hint: [Algorithmic approach without code]
-  4. Help: Discord #algo-forum channel
-
-🔧 TECHNICAL ISSUES: 🔧
-  1. GitHub: Check access, try private browser
-  2. Environment: Use devcontainer or local setup
-  3. Submit: Email screenshot to instructor
-  4. Support: Discord #algo-forum channel
-
-📋 ADMINISTRATIVE: 📋
-  1. Extensions: Email instructor BEFORE deadline
-  2. Grades: Check calculation above first
-  3. Office Hours: Wednesday 12:30-1:30 PM (Herman 207), Tuesday 12:30-1:30 PM (Herman 207)
-  4. Email: declan.gray-mullen@wne.edu
-
-🧠 WELLBEING/STRESS: 🧠
-  1. Counseling: 413-782-1211
-  2. Email: counseling.services@wne.edu
-  3. Study Groups: Form via Discord
-  4. Workload: Discuss with instructor
----
-```
-
 #### Quick Help Decision Tree
 
 ```
@@ -91,63 +49,7 @@ Is it conceptual? → Check lesson files first
 Is it code-related? → Show me the error message
 Is it grade-related? → Use grade calculator first, then email
 Is it stress-related? → Counseling services available
-
 ```
-
-### 📚 Personalized Smart Study Guidance System
-
-When a student asks for help with studying, check the current date and suggest:
-
-```
-Your Personalized Study Path (Week X):
-📖 Current Topics: [List topics from recent lectures]
-🎯 Focus Areas: [What to prioritize based on upcoming assessments]
-💻 Active Assignment: [Current PA with days remaining]
-📝 Upcoming Exam: [Next exam and topics to review]
-🔄 Review Topics: [Previous topics that connect to current material]
-```
-
-#### 🎓 Exam Preparation Paths
-
-- **2 Weeks Before Exam:**
-
-  - Review all lesson files in the exam folder
-  - Complete practice problems from each topic
-  - Identify weak areas using self-assessment
-
-- **1 Week Before Exam:**
-
-  - Focus on problem-solving patterns
-  - Review algorithm complexities
-  - Practice writing pseudocode
-
-- **3 Days Before Exam:**
-
-  - Quick review of all topics
-  - Focus on memorizing key algorithms
-  - Rest and avoid cramming
-
-#### 🚀 Assignment Success Path
-
-- **When PA is Released:**
-
-  1. Read specification completely
-  2. Identify required algorithms from lectures
-  3. Plan implementation approach
-  4. Start with simplest test cases
-
-- **Mid-Assignment (1 week in):**
-
-  1. Have basic structure complete
-  2. Debug with provided test cases
-  3. Optimize for efficiency
-  4. Document your approach
-
-- **Final Days:**
-
-  1. Polish code and comments
-  2. Run final tests
-  3. Submit before deadline to avoid penalties
 
 ---
 
@@ -182,6 +84,11 @@ If you (An Agentic AI) are reading this document then your job is to try and be 
 - **Office Hours**:
   - Wednesday 12:30-1:30 PM (Herman 207)
   - Tuesday 12:30-1:30 PM (Herman 207)
+- **GitHub**: Create a GitHub account to complete Programming Assignments - submit your username on Kodiak
+- **Discord**: Join the [Course Discord Server](https://discord.gg/tzywKCNM2j) - set your nickname to something similar to your IRL name
+- **_Optional_** - **Textbook**:  Introduction to Algorithms (CLRS), 3rd Edition
+- **_Optional_** - **Syllabot**: Open this [repository](https://github.com/wne-cs366-f25/algo-syllabot.git) as a devContainer in VSCode and start your prefered AI agent
+- **Lecture Transcripts**: Anonymized transcripts of class lectures are posted to Kodiak to enhance accessibility
 
 ## Course Learning Objectives
 
@@ -200,146 +107,98 @@ By the end of CS366, you should be able to:
 
 ### Week 1: Aug 26, 28
 **Topic**: Course Introduction & Algorithm Fundamentals
-
 **Paradigm**: Foundations - Analysis
-
-
 
 
 
 ### Week 2: Sep 2, 4
 **Topic**: Peak Finding & Data Structures
-
 **Paradigm**: Divide & Conquer - Search
-
 **Assignment**: PA0 due (Sep 4)
-
 
 
 ### Week 3: Sep 9, 11
 **Topic**: Asymptotic Notation & Binary Search Trees
-
 **Paradigm**: Tree Algorithms - Data Structures
-
-
 
 
 
 ### Week 4: Sep 16, 18
 **Topic**: Recurrence Relations & Sorting Algorithms
-
 **Paradigm**: Divide & Conquer - Sorting
-
 **Assignment**: PA1 due (Sep 18)
-
 
 
 ### Week 5: Sep 23, 25
 **Topic**: Linear Sorting & Hash Tables
-
 **Paradigm**: Hashing - Data Structures
-
-
 
 
 
 ### Week 6: Sep 30, Oct 2
 **Topic**: Balanced BSTs & Exam 1
-
 **Paradigm**: Tree Algorithms - Data Structures
-
 **Assignment**: PA2 due (Oct 2), Exam 1 (Oct 2)
-
 
 
 ### Week 7: Oct 7, 9
 **Topic**: Binary Heaps & Graph Fundamentals
-
 **Paradigm**: Tree/Graph Algorithms - Data Structures
-
-
 
 
 
 ### Week 8: Oct 16
 **Topic**: Graph Representations & Search Algorithms
-
 **Paradigm**: Graph Algorithms - Search
-
-
 
 
 
 ### Week 9: Oct 21, 23
 **Topic**: Shortest Paths & Greedy Algorithms
-
 **Paradigm**: Greedy - Optimization
-
 **Assignment**: PA3 due (Oct 23)
-
 
 
 ### Week 10: Oct 28, 30
 **Topic**: Advanced Shortest Paths
-
 **Paradigm**: Graph Algorithms - Optimization
-
-
 
 
 
 ### Week 11: Nov 4, 6
 **Topic**: Dynamic Programming Introduction & Exam 2
-
 **Paradigm**: Dynamic Programming - Optimization
-
 **Assignment**: PA4 due (Nov 6), Exam 2 (Nov 6)
-
 
 
 ### Week 12: Nov 11, 13
 **Topic**: DP on Sequences & Advanced DP
-
 **Paradigm**: Dynamic Programming - Optimization
-
-
 
 
 
 ### Week 13: Nov 18, 20
 **Topic**: Knapsack Problems & Minimum Spanning Trees
-
 **Paradigm**: DP/Greedy - Optimization
-
 **Assignment**: PA5 due (Nov 20)
-
 
 
 ### Week 14: Nov 25
 **Topic**: Computational Complexity Theory
-
 **Paradigm**: Complexity Theory - Theory
-
-
 
 
 
 ### Week 15: Dec 2, 4
 **Topic**: NP-Completeness & Course Review
-
 **Paradigm**: Complexity Theory - Theory
-
 **Assignment**: PA6 due (Dec 4)
-
 
 
 ### Week 16: Dec 8-12
 **Topic**: Final Exam Week
 
-
-
 **Assignment**: Exam 3 (Finals Week)
-
 
 
 
@@ -495,14 +354,12 @@ algo-syllabot/
 ├── CLAUDE.md # Course context for AI assistant with Claude
 ├── GEMINI.md # Course context for AI assistant with Gemini
 ├── LICENSE.md # Repository license information
-├── RULER_SETUP.md # Setup instructions for ruler integration
-├── ruler_aider_instructions.md # Aider-specific ruler instructions
 ├── Exam1/ # Algorithm Analysis and Foundations (lesson files posted by instructor)
 ├── Exam2/ # Advanced Data Structures and Graph Algorithms (lesson files posted by instructor)
 └── Exam3/ # Dynamic Programming and Computational Complexity (lesson files posted by instructor)
 ```
 
-**Key Points for Students:**
+**Key Notes**
 
 - Lesson files for each exam unit will be posted by the instructor as the course progresses
 - Files are posted by the instructor usually on the morning of each lecture
