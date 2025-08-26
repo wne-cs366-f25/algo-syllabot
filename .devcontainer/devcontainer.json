@@ -1,12 +1,20 @@
 {
   "name": "CS366 - Syllabot - AI Syllabus Assistant for Students",
   "build": {
-    "dockerfile": "Dockerfile",
-    "args": {
-      "TZ": "${localEnv:TZ:America/New_York}",
-      "CLAUDE_CODE_VERSION": "latest",
-      "GIT_DELTA_VERSION": "0.18.2",
-      "ZSH_IN_DOCKER_VERSION": "1.2.0"
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "installTools": true,
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "21",
+      "jdkDistro": "open",
+      "gradleVersion": "latest",
+      "mavenVersion": "latest",
+      "antVersion": "latest",
+      "groovyVersion": "latest"
     }
   },
   "runArgs": ["--name", "cs366-syllabot"],
@@ -18,8 +26,7 @@
         "eamodio.gitlens",
         "ms-python.python",
         "ms-python.vscode-pylance",
-        "bierner.markdown-mermaid",
-        "Anthropic.claude-code"
+        "bierner.markdown-mermaid"
       ],
       "settings": {
         "editor.formatOnSave": true,
@@ -41,16 +48,7 @@
     }
   },
   "remoteUser": "node",
-  "mounts": [
-    "source=cs366-bashhistory-${devcontainerId},target=/commandhistory,type=volume",
-    "source=cs366-config-${devcontainerId},target=/home/node/.claude,type=volume"
-  ],
-  "containerEnv": {
-    "NODE_OPTIONS": "--max-old-space-size=4096",
-    "CLAUDE_CONFIG_DIR": "/home/node/.claude",
-    "POWERLEVEL9K_DISABLE_GITSTATUS": "true"
-  },
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=delegated",
   "workspaceFolder": "/workspace",
-  "postCreateCommand": "sudo /usr/local/bin/init-firewall.sh && cd /workspace && if [ -f Claude.md ]; then echo 'Claude.md found - Claude will use this for course context'; fi"
+  "postCreateCommand": "bash .devcontainer/post-create.sh"
 }
