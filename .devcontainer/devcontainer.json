@@ -9,12 +9,7 @@
       "ZSH_IN_DOCKER_VERSION": "1.2.0"
     }
   },
-  "runArgs": [
-    "--name",
-    "cs366-syllabot",
-    "--cap-add=NET_ADMIN",
-    "--cap-add=NET_RAW"
-  ],
+  "runArgs": ["--name", "cs366-syllabot"],
   "customizations": {
     "vscode": {
       "extensions": [
