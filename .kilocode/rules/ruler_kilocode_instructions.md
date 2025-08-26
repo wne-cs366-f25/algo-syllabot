@@ -252,7 +252,7 @@ Maximum late: 5 days (50% penalty)
 
 **Exam Details**: Exam 1 and Exam 2 will be given in-class, Exam 3 will be administered during the final exam period (TBD). All Exams will be completed with the Lockdown browser. Email the instructor to coordinate an accommodation or makeup.
 
-**Programming Assignment Details**: Programming Assignments are biweekly and due on Thursday at 11:59 PM via GitHub. Starter code is provided in both Java and Python - you may choose either language and switch between assignments. Solutions posted the following Thursday. Late policy: 10% deduction per day, maximum 5 days late. Lowest grade dropped.
+**Programming Assignment Details**: Programming Assignments are biweekly and due on Thursday at 11:59 PM via GitHub. Starter code is provided in Java or Python. Solutions posted the following Thursday. Late policy: 10% deduction per day, maximum 5 days late. Lowest grade dropped.
 
 **Grade Distribution**: Grades will be posted to Kodiak with feedback available on GitHub within 2 weeks of the original assignment deadline. Exam grades will be posted ASAP.
 
@@ -275,7 +275,7 @@ Maximum late: 5 days (50% penalty)
 Programming assignments focus on implementation and empirical analysis of algorithms. 7 PAs total with the lowest grade dropped.
 
 - BiWeekly programming assignments due every other Thursday at 11:59 PM
-- Starter Code Available either in Java and Python for PA1-PA6; Students may choose either language and switch between assignments
+- Starter Code Available either in Java or Python for PA1-PA6; Students may choose either language and switch between assignments
 - Solutions posted Wednesday morning
 - Late policy: 10% deduction per day, max 5 days late
 - Focus on implementation of different algorithmic paradigms
