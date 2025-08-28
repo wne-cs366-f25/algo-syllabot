@@ -301,10 +301,6 @@ This example demonstrates why algorithm analysis often focuses on decision probl
 
 ### Example: Same Parent Name - Are there any two students in class that share a parental first name?
 
-Q0. Is this a decision problem?
-
-**A:** Yes, this is a decision problem because it asks for a yes/no answer: "Are there any two students in class that share a parental first name?" The output is binary (true/false).
-
 ```pseudocode
 SameParentName(students[]):
     initialize empty array of parent names
@@ -760,129 +756,9 @@ Each number is C(n,r) where n is the row and r is the position (starting from 0)
 - Selecting teams or groups
 - Choosing subset of features
 
-**Practice Problem**: A password system requires exactly 4 different letters from the alphabet. How many possible passwords are there?
-
-**Solution**: Since order matters (ab12 ≠ ba12), use permutations:
-P(26,4) = 26!/(26-4)! = 26!/22! = 26 × 25 × 24 × 23 = 358,800
-
 ## Correctness
 
 We'll have limited exposure to proving correctness but will require informal justifications for pseudocode solutions. Understanding correctness proofs helps us verify that our algorithms actually solve the problems they claim to solve.
-
-### Mathematical Induction for Algorithm Correctness
-
-Mathematical induction is a fundamental proof technique that connects directly to the discrete mathematics concepts from CS 150/251. In algorithm analysis, we use induction to prove that an algorithm works correctly for all possible input sizes.
-
-#### Induction Proof Structure
-
-**Template for Algorithm Correctness Proofs**:
-
-1. **Base Case**: Prove the algorithm works correctly for the smallest possible input
-2. **Inductive Hypothesis**: Assume the algorithm works correctly for input of size k
-3. **Inductive Step**: Prove that if the algorithm works for size k, it also works for size k+1
-4. **Conclusion**: By induction, the algorithm works for all input sizes n ≥ base case
-
-#### Example: Linear Search Correctness Proof
-
-Let's prove that linear search correctly finds an element if it exists in the array.
-
-**Algorithm**:
-
-```python
-def linear_search(arr, target):
-    for i in range(len(arr)):
-        if arr[i] == target:
-            return i
-    return -1  # not found
-```
-
-**Claim**: Linear search returns the index of `target` if it exists in `arr`, or -1 if it doesn't exist.
-
-**Proof by Induction on Array Size**:
-
-**Base Case (n = 0)**:
-
-- Array is empty, so `target` cannot exist
-- Algorithm immediately returns -1
-- This is correct ✓
-
-**Base Case (n = 1)**:
-
-- Array has one element `arr[0]`
-- If `arr[0] == target`, algorithm returns 0 (correct) ✓
-- If `arr[0] != target`, algorithm returns -1 (correct) ✓
-
-**Inductive Hypothesis**:
-
-- Assume linear search works correctly for all arrays of size k ≥ 1
-
-**Inductive Step**:
-
-- Consider array of size k+1: `arr[0], arr[1], ..., arr[k]`
-- Algorithm first checks `arr[0]`:
-  - **Case 1**: If `arr[0] == target`, return 0 (correct) ✓
-  - **Case 2**: If `arr[0] != target`, continue searching `arr[1], ..., arr[k]`
-- The subarray `arr[1], ..., arr[k]` has size k
-- By inductive hypothesis, searching this subarray works correctly
-- If target found at position j in subarray, algorithm returns j+1 in original array (correct) ✓
-- If target not found in subarray, algorithm returns -1 (correct) ✓
-
-**Conclusion**: By mathematical induction, linear search works correctly for all array sizes n ≥ 0.
-
-#### Connection to Discrete Mathematics (CS 150/251)
-
-This proof technique builds directly on concepts you've learned:
-
-**Strong vs Weak Induction**:
-
-- **Weak induction** (used above): Assume property holds for k, prove for k+1
-- **Strong induction**: Assume property holds for all values ≤ k, prove for k+1
-
-**Well-Ordering Principle**:
-
-- Every non-empty subset of natural numbers has a smallest element
-- Foundation for why induction works mathematically
-
-**Recursive Definitions**:
-
-- Many algorithms mirror recursive mathematical definitions
-- Induction proofs for algorithms often follow recursive structure
-
-#### Template for Student Use
-
-When proving algorithm correctness, follow this template:
-
-**Step 1: State the Claim**
-
-- Clearly define what the algorithm is supposed to do
-- Specify input conditions and expected output
-
-**Step 2: Choose Induction Variable**
-
-- Usually input size (n), but could be other parameters
-- Identify the smallest meaningful input size for base case
-
-**Step 3: Base Case**
-
-- Verify algorithm works for smallest input(s)
-- Often involves checking trivial cases manually
-
-**Step 4: Inductive Hypothesis**
-
-- State assumption: "Assume algorithm works correctly for input size k"
-- Be precise about what "works correctly" means
-
-**Step 5: Inductive Step**
-
-- Consider input of size k+1
-- Show how algorithm reduces problem or uses inductive hypothesis
-- Verify all cases lead to correct output
-
-**Step 6: Conclusion**
-
-- "By mathematical induction, the algorithm is correct for all valid inputs"
-
-This systematic approach helps ensure you don't miss edge cases and provides a rigorous foundation for algorithm verification.
 
 ## Practice Problems
 
