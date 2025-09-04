@@ -13,8 +13,6 @@ CLRS Chapter 10-11
 
 ## Class Plan
 
-### Core Topics (50 minutes)
-
 1. **Intro & Java Connections** (10 min)
    - Connect to familiar Java classes (ArrayList, LinkedList)
    - Core sequence operations overview
