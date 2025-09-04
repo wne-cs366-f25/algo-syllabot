@@ -116,36 +116,6 @@ class StaticArray:
             self.data[i] = x     # O(1) - direct memory access
         else:
             raise IndexError("Index out of bounds")
-```
-
-_Java version_:
-
-```java
-public class StaticArray<T> {
-    private Object[] data;
-    private int capacity;
-    private int size;
-
-    public StaticArray(int capacity) {
-        this.data = new Object[capacity];  // Allocate fixed space
-        this.capacity = capacity;
-        this.size = 0;
-    }
-
-    @SuppressWarnings("unchecked")
-    public T get(int i) {
-        if (i < 0 || i >= size) {
-            throw new IndexOutOfBoundsException();
-        }
-        return (T) data[i];  // O(1) - direct memory access
-    }
-
-    public void set(int i, T x) {
-        if (i < 0 || i >= size) {
-            throw new IndexOutOfBoundsException();
-        }
-        data[i] = x;  // O(1) - direct memory access
-    }
 
     def insert_at(self, i, x):
         if self.size >= self.capacity:
@@ -274,47 +244,7 @@ class SinglyLinkedList:
         for _ in range(i):  # i traversal steps
             current = current.next
         return current.item
-```
 
-_Java version_:
-
-```java
-class ListNode<T> {
-    T item;
-    ListNode<T> next;
-
-    public ListNode(T item) {
-        this.item = item;
-        this.next = null;
-    }
-}
-
-public class SinglyLinkedList<T> {
-    private ListNode<T> head;
-    private int size;
-
-    public SinglyLinkedList() {
-        this.head = null;
-        this.size = 0;
-    }
-
-    public T get(int i) {
-        if (i >= size) {
-            throw new IndexOutOfBoundsException();
-        }
-
-        ListNode<T> current = head;
-        for (int j = 0; j < i; j++) {  // i traversal steps
-            current = current.next;
-        }
-        return current.item;
-    }
-}
-```
-
-Continue with Python methods:
-
-```python
     def set_at(self, i, x):
         """O(i) - traverse then modify"""
         if i >= self.size:
