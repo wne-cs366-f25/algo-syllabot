@@ -171,7 +171,7 @@ By the end of CS366, you should be able to:
 
 | Title | Due Date |
 |-------|----------|
-| [PA0 - GitHub & Environment Starter Assignment](https://classroom.github.com/a/sySX0Kre) | Sept 4 |
+| [PA0 - GitHub & Environment Starter Assignment]() | Sept 4 |
 | [PA1 - Algorithm Analysis Practice]() | September 18 |
 | [PA2 - Divide & Conquer Implementation]() | October 2 |
 | [PA3 - Graph Algorithm Implementation]() | October 23 |

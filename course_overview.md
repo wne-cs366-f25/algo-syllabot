@@ -17,8 +17,8 @@ This document provides a comprehensive overview of all course content organized 
 | 1 | LEC01   | Algorithm Introduction | Thursday, Aug 28 |
 | 2 | LEC02   | Introduction and Peak Finding | Tuesday, Sept 2 |
 | 2 | LEC03   | Data Structures and Sequences | Thursday, Sept 4 |
-| 2 | LEC04   | Asymptotic Notation | Tuesday, Sept 9 |
-| 3 | LEC05   | Binary Search Trees | Thursday, Sept 11 |
+| 2 | LEC04   | Asymptotic Notation & Math Review Activities | Tuesday, Sept 9 |
+| 3 | LEC05   | Big Oh Activity & BST Essentials | Thursday, Sept 11 |
 | 3 | LEC06   | Recurrence Relations | Tuesday, Sept 16 |
 | 4 | LEC07   | Sorting Algorithms | Thursday, Sept 18 |
 | 4 | LEC08   | Linear Sorting | Tuesday, Sept 23 |
