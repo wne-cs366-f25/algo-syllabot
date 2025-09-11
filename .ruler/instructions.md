@@ -112,7 +112,7 @@ By the end of CS366, you should be able to:
 
 
 ### Week 3: Sep 9, 11
-**Topic**: Asymptotic Notation & Binary Search Trees
+**Topic**: Math Review Activities, Asymptotic Notation & Binary Trees
 **Paradigm**: Tree Algorithms - Data Structures
 
 
@@ -282,7 +282,7 @@ Programming assignments focus on implementation and empirical analysis of algori
 
 ## Course Topics by Exam
 
-### Algorithm Analysis and Foundations Topics: Algorithm analysis, peak finding, data structures, asymptotic notation, binary search trees, recurrence relations, sorting algorithms, linear sorting, hashing and hash tables
+### Algorithm Analysis and Foundations Topics: Algorithm analysis, peak finding, data structures, asymptotic notation, binary trees, BSTs, recurrence relations, sorting algorithms, linear sorting, hashing and hash tables
 
 - Introduction and Peak Finding - Algorithmic thinking and divide-and-conquer
 

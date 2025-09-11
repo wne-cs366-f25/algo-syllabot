@@ -110,7 +110,7 @@ By the end of CS366, you should be able to:
 **Assignment**: PA0 due (Sep 4)
 
 ### Week 3: Sep 9, 11
-**Topic**: Asymptotic Notation & Binary Search Trees
+**Topic**: Math Review Activities, Asymptotic Notation & Binary Trees
 
 ### Week 4: Sep 16, 18
 **Topic**: Recurrence Relations & Sorting Algorithms
@@ -185,7 +185,7 @@ By the end of CS366, you should be able to:
 ## Examinations
 
 ### Algorithm Analysis and Foundations: Thursday, Oct 2 (15%)
-Algorithm analysis, peak finding, data structures, asymptotic notation, binary search trees, recurrence relations, sorting algorithms, linear sorting, hashing and hash tables
+Algorithm analysis, peak finding, data structures, asymptotic notation, binary trees, BSTs, recurrence relations, sorting algorithms, linear sorting, hashing and hash tables
 
 ### Advanced Data Structures: Thursday, Nov 6 (15%)
 AVL trees, binary heaps, graph algorithms basics, BFS, DFS, Bellman-Ford, greedy algorithms, Dijkstra's algorithm, shortest paths
