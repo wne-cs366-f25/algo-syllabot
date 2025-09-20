@@ -20,8 +20,8 @@ This document provides a comprehensive overview of all course content organized 
 | 2 | LEC04   | Math Review Activities | Tuesday, Sept 9 |
 | 3 | LEC05   | Asymptotic Notation, Big Oh Activity | Thursday, Sept 11 |
 | 3 | LEC06   | Recurrence Relations | Tuesday, Sept 16 |
-| 4 | LEC07   | Sorting Algorithms | Thursday, Sept 18 |
-| 4 | LEC08   | Linear Sorting | Tuesday, Sept 23 |
+| 4 | LEC07   | Solving Recurrences | Thursday, Sept 18 |
+| 4 | LEC08   | Sorting Algorithms | Tuesday, Sept 23 |
 | 5 | LEC09   | Hashing and Hash Tables | Thursday, Sept 25 |
 
 ## Advanced Data Structures (15%)
@@ -57,7 +57,7 @@ This document provides a comprehensive overview of all course content organized 
 | ---------- | --------------- | ------------------ | -------------- |
 | PA0        | GitHub & Environment Starter Assignment | Sept 4 | 2 |
 | PA1        | Algorithm Analysis Practice | September 18 | 4 |
-| PA2        | Divide & Conquer Implementation | October 2 | 6 |
+| PA2        | Complexity & Recursion | October 2 | 6 |
 | PA3        | Graph Algorithm Implementation | October 23 | 9 |
 | PA4        | Greedy Algorithm Implementation | November 6 | 11 |
 | PA5        | Dynamic Programming Problems | November 20 | 13 |

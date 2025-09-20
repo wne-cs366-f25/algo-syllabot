@@ -27,8 +27,6 @@ Thumbs.db
 # Course specific
 submissions/
 grading/
-solutions/
-*.solution.*
 student_work/
 
 # Temporary files
