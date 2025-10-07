@@ -31,8 +31,8 @@ This document provides a comprehensive overview of all course content organized 
 | 6 | LEC10   | Balanced Binary Search Trees (AVL) | Tuesday, Sept 30 |
 | 7 | LEC11   | Binary Heaps and Priority Queues | Tuesday, Oct 7 |
 | 7 | LEC12   | Graph Algorithms Basics | Thursday, Oct 9 |
-| 8 | LEC13   | Graph Representations and BFS | Tuesday, Oct 14 |
-| 8 | LEC14   | Depth-First Search and Applications | Thursday, Oct 16 |
+| 8 | LEC13   | NO CLASS - Fall Break | Tuesday, Oct 14 |
+| 8 | LEC14   | BFS and DFS | Thursday, Oct 16 |
 | 9 | LEC15   | Bellman-Ford Algorithm | Tuesday, Oct 21 |
 | 9 | LEC16   | Greedy Algorithms | Thursday, Oct 23 |
 | 10 | LEC17   | Dijkstra's and Johnson's Algorithms | Tuesday, Oct 28 |
@@ -58,7 +58,7 @@ This document provides a comprehensive overview of all course content organized 
 | PA0        | GitHub & Environment Starter Assignment | Sept 4 | 2 |
 | PA1        | Algorithm Analysis Practice | September 18 | 4 |
 | PA2        | Complexity & Recursion | October 2 | 6 |
-| PA3        | Graph Algorithm Implementation | October 23 | 9 |
+| PA3        | Karatsuba Algorithm & Divide-and-Conquer | October 23 | 9 |
 | PA4        | Greedy Algorithm Implementation | November 6 | 11 |
 | PA5        | Dynamic Programming Problems | November 20 | 13 |
 | PA6        | NP-Complete Problem Reduction | December 4 | 15 |

@@ -174,7 +174,7 @@ By the end of CS366, you should be able to:
 | [PA0 - GitHub & Environment Starter Assignment](https://github.com/wne-cs366-f25/pa0-github-and-java) | Sept 4 |
 | [PA1 - Algorithm Analysis Practice](https://github.com/wne-cs366-f25/cs366-pa1-algorithm-analysis) | September 18 |
 | [PA2 - Complexity & Recursion](https://github.com/wne-cs366-f25/cs366-pa2-complexity-and-recursion) | October 2 |
-| [PA3 - Graph Algorithm Implementation]() | October 23 |
+| [PA3 - Karatsuba Algorithm & Divide-and-Conquer]() | October 23 |
 | [PA4 - Greedy Algorithm Implementation]() | November 6 |
 | [PA5 - Dynamic Programming Problems]() | November 20 |
 | [PA6 - NP-Complete Problem Reduction]() | December 4 |
