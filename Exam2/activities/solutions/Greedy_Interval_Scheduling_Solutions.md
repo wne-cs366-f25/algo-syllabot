@@ -187,28 +187,39 @@ Apply greedy algorithm:
 
 **Proof (Exchange Argument):**
 
-Let G = {g₁, g₂, ..., gₖ} be the greedy solution, sorted by finish time.
-Let O = {o₁, o₂, ..., oₘ} be any optimal solution, sorted by finish time.
+Let G = {g₁, g₂, ..., gₖ} be the greedy solution (sorted by finish time).
+Let O = {o₁, o₂, ..., oₘ} be any optimal solution (sorted by finish time).
 
-Assume for contradiction that k < m (greedy selected fewer intervals than optimal).
+**Strategy:** We'll transform O into G through a series of "exchanges" without decreasing the number of intervals. This proves G is also optimal.
 
-**Key observation:** We'll show that for all i, the i-th greedy choice finishes no later than the i-th optimal choice: f(gᵢ) ≤ f(oᵢ).
+**The Exchange Process:**
 
-**Proof by induction:**
+Suppose O ≠ G. We'll find the first position where they differ and swap an interval from O with an interval from G.
 
-_Base case (i=1):_ The greedy algorithm picks the interval with earliest finish time among all intervals, so f(g₁) ≤ f(o₁).
+Let i be the **first index where G and O differ**: g₁ = o₁, g₂ = o₂, ..., gᵢ₋₁ = oᵢ₋₁, but gᵢ ≠ oᵢ.
 
-_Inductive step:_ Assume f(gᵢ) ≤ f(oᵢ).
+**Key insight:** Since greedy chose gᵢ at position i, we know:
+- gᵢ is compatible with {g₁, ..., gᵢ₋₁} = {o₁, ..., oᵢ₋₁}
+- gᵢ has the earliest finish time among all intervals compatible with {o₁, ..., oᵢ₋₁}
+- Therefore: **f(gᵢ) ≤ f(oᵢ)**
 
-- Since f(gᵢ) ≤ f(oᵢ), and oᵢ₊₁ is compatible with oᵢ (meaning s(oᵢ₊₁) ≥ f(oᵢ)), we know that oᵢ₊₁ is also compatible with gᵢ (since s(oᵢ₊₁) ≥ f(oᵢ) ≥ f(gᵢ)).
-- The greedy algorithm considers all intervals compatible with gᵢ and chooses the one with earliest finish time.
-- Therefore, f(gᵢ₊₁) ≤ f(oᵢ₊₁).
+**The Exchange:** Replace oᵢ with gᵢ in the optimal solution O.
 
-**Conclusion:** By induction, f(gᵢ) ≤ f(oᵢ) for all i ≤ k.
+Create O' = {o₁, o₂, ..., oᵢ₋₁, **gᵢ**, oᵢ₊₁, ..., oₘ}
 
-Since f(gₖ) ≤ f(oₖ), and O has m > k intervals, oₖ₊₁ must be compatible with oₖ. But since f(gₖ) ≤ f(oₖ), oₖ₊₁ is also compatible with gₖ. This contradicts the greedy algorithm's termination - it would have selected another interval!
+**Why is O' still valid?**
 
-Therefore, our assumption that k < m must be false. The greedy solution is optimal. ∎
+1. **gᵢ is compatible with earlier intervals:** ✓ (by definition, since greedy selected it)
+2. **gᵢ is compatible with later intervals:** Since f(gᵢ) ≤ f(oᵢ) and oᵢ₊₁ was compatible with oᵢ (meaning s(oᵢ₊₁) ≥ f(oᵢ)), we know s(oᵢ₊₁) ≥ f(oᵢ) ≥ f(gᵢ), so gᵢ doesn't conflict with oᵢ₊₁.
+3. **Size unchanged:** |O'| = |O| = m
+
+**Result:** O' is still an optimal solution with m intervals, but now it agrees with G for one more position!
+
+**Repeat:** Keep exchanging until O has been transformed into G.
+
+**Conclusion:** After at most k exchanges, we've transformed the optimal solution O into the greedy solution G without losing any intervals. Therefore, |G| = |O| = m, proving G is optimal. ∎
+
+**Intuition:** The exchange argument shows we can always "swap in" greedy choices into any optimal solution without making things worse. If every greedy choice is "interchangeable" with choices in the optimal solution, then the greedy solution must also be optimal!
 
 ---
 
