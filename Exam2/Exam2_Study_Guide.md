@@ -183,13 +183,95 @@ DFS(vertex v):
 - Never reconsiders once a vertex is processed
 - Greedy choice: "Visit closest unvisited vertex next"
 
+## Greedy Algorithms
+
+### Greedy Algorithm Characteristics
+
+**Core Principle**: Make the locally optimal choice at each step, hoping to find a global optimum
+
+**Key Properties**:
+- **Greedy Choice Property**: A global optimum can be reached by making locally optimal choices
+- **Optimal Substructure**: An optimal solution contains optimal solutions to subproblems
+- **Never backtracks**: Once a choice is made, it's never reconsidered
+- **Efficiency**: Often runs in polynomial time
+
+**Proving Correctness**:
+1. **Greedy Choice Property**: Show that making the greedy choice leaves a subproblem of the same form
+2. **Optimal Substructure**: Prove that combining the greedy choice with an optimal solution to the subproblem yields an optimal solution to the original problem
+
+### Interval Scheduling Problem
+
+**Problem**: Given n intervals with start and finish times, select the maximum number of non-overlapping intervals.
+
+**Input**: Set of intervals {(s₁, f₁), (s₂, f₂), ..., (sₙ, fₙ)} where sᵢ = start time, fᵢ = finish time
+
+**Goal**: Find maximum-size subset of mutually compatible (non-overlapping) intervals
+
+**Greedy Strategy**: Always select the interval with the **earliest finish time** among remaining compatible intervals
+
+**Algorithm**:
+1. Sort intervals by finish time (f₁ ≤ f₂ ≤ ... ≤ fₙ)
+2. Initialize result set S = {interval 1}
+3. For each interval i from 2 to n:
+   - If interval i is compatible with all intervals in S (sᵢ ≥ finish time of last interval in S):
+     - Add interval i to S
+4. Return S
+
+**Running Time**: O(n log n) for sorting + O(n) for selection = **O(n log n)**
+
+**Why This Works**:
+- Selecting earliest finish time leaves maximum room for future intervals
+- Greedy choice is always part of some optimal solution
+- Can prove by exchange argument: any optimal solution can be transformed to include the greedy choice
+
+### Minimum Cost to Connect Sticks
+
+**Problem**: Given n sticks of various lengths, connect them all into one stick. Cost to connect two sticks = sum of their lengths. Find minimum total cost.
+
+**Input**: Array of stick lengths [s₁, s₂, ..., sₙ]
+
+**Goal**: Minimize total cost of connecting all sticks
+
+**Greedy Strategy**: Always connect the two **shortest sticks** available
+
+**Algorithm**:
+1. Create a min-heap from all stick lengths
+2. Initialize total_cost = 0
+3. While heap has more than one stick:
+   - Extract two smallest sticks: stick1 and stick2
+   - cost = stick1 + stick2
+   - Add cost to total_cost
+   - Insert combined stick (length = cost) back into heap
+4. Return total_cost
+
+**Running Time**:
+- Build heap: O(n)
+- n-1 iterations, each with 2 extract-min + 1 insert: O(n log n)
+- **Total: O(n log n)**
+
+**Example**:
+```
+Sticks: [2, 4, 3]
+
+Step 1: Connect 2 and 3 → cost = 5, sticks = [5, 4], total = 5
+Step 2: Connect 5 and 4 → cost = 9, sticks = [9], total = 14
+
+Total cost: 14
+```
+
+**Why This Works**:
+- Sticks connected earlier are counted multiple times in total cost
+- Minimizing early connections (by using shortest sticks) minimizes total cost
+- Similar to Huffman coding tree construction
+- Can prove optimal by induction on number of sticks
+
 ## Algorithm Design Techniques Summary
 
-| Technique              | Strategy                                           | Key Characteristics                                 | Examples                             |
-| ---------------------- | -------------------------------------------------- | --------------------------------------------------- | ------------------------------------ |
-| **Divide-and-Conquer** | Break into subproblems, solve recursively, combine | Independent subproblems; T(n) = aT(n/b) + f(n)      | Merge Sort, Binary Search            |
-| **Greedy**             | Make locally optimal choice at each step           | Never backtracks; must prove correctness; efficient | Dijkstra's Algorithm, Huffman Coding |
-| **Backtracking**       | Build incrementally, backtrack when invalid        | Explores search tree; abandons bad paths early      | N-Queens, Sudoku, Graph Coloring     |
+| Technique              | Strategy                                           | Key Characteristics                                 | Examples                                          |
+| ---------------------- | -------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------- |
+| **Divide-and-Conquer** | Break into subproblems, solve recursively, combine | Independent subproblems; T(n) = aT(n/b) + f(n)      | Merge Sort, Binary Search, Karatsuba              |
+| **Greedy**             | Make locally optimal choice at each step           | Never backtracks; must prove correctness; efficient | Dijkstra's, Interval Scheduling, Connect Sticks   |
+| **Backtracking**       | Build incrementally, backtrack when invalid        | Explores search tree; abandons bad paths early      | N-Queens, Sudoku, Graph Coloring                  |
 
 ## Heap Data Structure
 
