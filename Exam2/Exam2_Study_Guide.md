@@ -190,12 +190,14 @@ DFS(vertex v):
 **Core Principle**: Make the locally optimal choice at each step, hoping to find a global optimum
 
 **Key Properties**:
+
 - **Greedy Choice Property**: A global optimum can be reached by making locally optimal choices
 - **Optimal Substructure**: An optimal solution contains optimal solutions to subproblems
 - **Never backtracks**: Once a choice is made, it's never reconsidered
 - **Efficiency**: Often runs in polynomial time
 
 **Proving Correctness**:
+
 1. **Greedy Choice Property**: Show that making the greedy choice leaves a subproblem of the same form
 2. **Optimal Substructure**: Prove that combining the greedy choice with an optimal solution to the subproblem yields an optimal solution to the original problem
 
@@ -210,6 +212,7 @@ DFS(vertex v):
 **Greedy Strategy**: Always select the interval with the **earliest finish time** among remaining compatible intervals
 
 **Algorithm**:
+
 1. Sort intervals by finish time (f₁ ≤ f₂ ≤ ... ≤ fₙ)
 2. Initialize result set S = {interval 1}
 3. For each interval i from 2 to n:
@@ -220,6 +223,7 @@ DFS(vertex v):
 **Running Time**: O(n log n) for sorting + O(n) for selection = **O(n log n)**
 
 **Why This Works**:
+
 - Selecting earliest finish time leaves maximum room for future intervals
 - Greedy choice is always part of some optimal solution
 - Can prove by exchange argument: any optimal solution can be transformed to include the greedy choice
@@ -235,6 +239,7 @@ DFS(vertex v):
 **Greedy Strategy**: Always connect the two **shortest sticks** available
 
 **Algorithm**:
+
 1. Create a min-heap from all stick lengths
 2. Initialize total_cost = 0
 3. While heap has more than one stick:
@@ -245,11 +250,13 @@ DFS(vertex v):
 4. Return total_cost
 
 **Running Time**:
+
 - Build heap: O(n)
 - n-1 iterations, each with 2 extract-min + 1 insert: O(n log n)
 - **Total: O(n log n)**
 
 **Example**:
+
 ```
 Sticks: [2, 4, 3]
 
@@ -260,18 +267,202 @@ Total cost: 14
 ```
 
 **Why This Works**:
+
 - Sticks connected earlier are counted multiple times in total cost
 - Minimizing early connections (by using shortest sticks) minimizes total cost
 - Similar to Huffman coding tree construction
 - Can prove optimal by induction on number of sticks
 
+## Backtracking Algorithms
+
+### N-Queens Problem
+
+**Problem**: Place n queens on an n×n chessboard such that no two queens attack each other.
+
+**Constraints**: Queens can attack any piece in the same:
+
+- Row
+- Column
+- Diagonal (both directions)
+
+**Goal**: Find a valid placement of all n queens (or determine if one exists in a given subtree)
+
+**Backtracking Strategy**:
+
+- Place queens one column at a time
+- For each column, try each row position
+- If a position is safe, place queen and recurse to next column
+- If no safe position exists in current column, backtrack to previous column
+- Prune branches early when a placement violates constraints
+
+**Note**: Exam questions will specify whether to use 0-based or 1-based indexing. Examples below use 1-based indexing.
+
+### N-Queens Algorithm Steps
+
+```
+NQueens(col, board):
+    if col > n:
+        return true  // All queens placed successfully
+
+    for row from 1 to n:
+        if isSafe(row, col, board):
+            board[col] = row  // Place queen
+            if NQueens(col + 1, board):
+                return true
+            // Backtrack: remove queen (implicit when trying next row)
+
+    return false  // No valid placement found
+
+isSafe(row, col, board):
+    for prevCol from 1 to col-1:
+        prevRow = board[prevCol]
+        // Check same row
+        if prevRow == row:
+            return false
+        // Check diagonals
+        if abs(prevRow - row) == abs(prevCol - col):
+            return false
+    return true
+```
+
+### Tracing N-Queens Search Tree
+
+**Key Concepts for Exam**:
+
+1. **Board Representation**: Array where board[i] = j means "queen in column i is at row j"
+
+2. **Search Tree Structure**:
+
+   - Each level represents a column (1 through n)
+   - Each branch represents a row choice (1 through n)
+   - Leaves represent complete or failed placements
+
+3. **Determining Valid Solutions in Subtree**:
+   - Start from given partial board state
+   - Check if current state is valid (no conflicts)
+   - If invalid, subtree has NO solutions
+   - If valid, trace remaining columns systematically
+
+**Example Trace for 4-Queens** (1-indexed):
+
+```
+Col 1: Try rows 1, 2, 3, 4
+  |
+  ├─ Q at (row=1, col=1)
+  |    Col 2: Try rows 1, 2, 3, 4
+  |    |
+  |    ├─ row=1? NO - same row as (1,1)
+  |    ├─ row=2? NO - diagonal attack with (1,1)
+  |    ├─ row=3? YES - safe
+  |    |    Col 3: Try rows 1, 2, 3, 4
+  |    |    |
+  |    |    ├─ row=1? NO - same row as (1,1)
+  |    |    ├─ row=2? NO - diagonal with (3,2)
+  |    |    ├─ row=3? NO - same row as (3,2)
+  |    |    ├─ row=4? NO - diagonal with (3,2)
+  |    |    └─ BACKTRACK - no valid row in col 3
+  |    |
+  |    └─ row=4? YES - safe
+  |         Col 3: ...
+  |         (Continue exploring...)
+  |
+  ├─ Q at (row=2, col=1)
+  |    Col 2: ...
+  |    (Contains solution: board = [2,4,1,3])
+  ...
+```
+
+### Checking for Valid Solutions in a Subtree
+
+**Step-by-Step Process**:
+
+1. **Verify Current State**:
+
+   - Check all placed queens for conflicts
+   - If conflict exists, answer is NO
+
+2. **Identify Remaining Columns**:
+
+   - Count how many columns still need queens
+   - These form the subtree to explore
+
+3. **For Each Remaining Column**:
+
+   - Try each row systematically (1 through n)
+   - Check if position is safe against ALL previously placed queens
+   - If safe, recursively check next column
+   - If unsafe, skip this branch (pruning)
+
+4. **Termination Conditions**:
+   - **Success**: All columns filled with no conflicts
+   - **Failure**: Current column has no safe rows (backtrack)
+
+**Example Problem** (1-indexed): Given board state [2, 4, ?, ?] for 4-Queens (columns 1-2 filled, columns 3-4 empty), does subtree contain valid solution?
+
+```
+Current state (board = [2, 4, ?, ?]):
+. . ? ?   (row 1)
+Q . ? ?   (row 2, col 1)
+. . ? ?   (row 3)
+. Q ? ?   (row 4, col 2)
+
+Col 3 options:
+- Row 1: Safe? Check against (2,1) and (4,2)
+  - Not same row as 2 or 4 ✓
+  - Diagonal from (2,1)? |2-1| == |1-3|? 1 ≠ 2 ✓
+  - Diagonal from (4,2)? |4-1| == |2-3|? 3 ≠ 1 ✗ NO - diagonal conflict
+
+- Row 2: Safe? Check against (2,1) and (4,2)
+  - Same row as (2,1)? YES ✗ NO - row conflict
+
+- Row 3: Safe? Check against (2,1) and (4,2)
+  - Not same row as 2 or 4 ✓
+  - Diagonal from (2,1)? |2-3| == |1-3|? 1 ≠ 2 ✓
+  - Diagonal from (4,2)? |4-3| == |2-3|? 1 == 1 ✗ NO - diagonal conflict
+
+- Row 4: Safe? Check against (2,1) and (4,2)
+  - Same row as (4,2)? YES ✗ NO - row conflict
+
+Answer: NO valid solution exists in this subtree (all rows in col 3 have conflicts)
+```
+
+**Alternative Example with Valid Solution**: board = [3, 1, ?, ?]
+
+If we instead had board = [3, 1, ?, ?]:
+
+```
+Col 3 options:
+- Row 4: Safe? Check against (3,1) and (1,2)
+  - Not same row ✓
+  - Diagonal from (3,1)? |3-4| == |1-3|? 1 ≠ 2 ✓
+  - Diagonal from (1,2)? |1-4| == |2-3|? 3 ≠ 1 ✗ NO - diagonal conflict
+
+- Eventually trying all positions leads to board = [3,1,4,2] ✓ VALID SOLUTION
+```
+
+### Running Time
+
+- **Worst Case**: O(n!) - must explore all permutations
+- **Recurrence**: T(n) = n·T(n-1) + O(n)
+  - At each level, try up to n positions
+  - Each position requires O(n) safety check
+  - Recurse to next column (n-1 columns remaining)
+- **With Pruning**: Much better in practice, but still exponential
+
+### Key Insights
+
+- **Backtracking** explores search space systematically
+- **Pruning** eliminates invalid branches early
+- **Constraint checking** prevents exploring doomed subtrees
+- Position early in tree affects search tree size dramatically
+
 ## Algorithm Design Techniques Summary
 
-| Technique              | Strategy                                           | Key Characteristics                                 | Examples                                          |
-| ---------------------- | -------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------- |
-| **Divide-and-Conquer** | Break into subproblems, solve recursively, combine | Independent subproblems; T(n) = aT(n/b) + f(n)      | Merge Sort, Binary Search, Karatsuba              |
-| **Greedy**             | Make locally optimal choice at each step           | Never backtracks; must prove correctness; efficient | Dijkstra's, Interval Scheduling, Connect Sticks   |
-| **Backtracking**       | Build incrementally, backtrack when invalid        | Explores search tree; abandons bad paths early      | N-Queens, Sudoku, Graph Coloring                  |
+| Technique              | Strategy                                           | Key Characteristics                                 | Examples                                        |
+| ---------------------- | -------------------------------------------------- | --------------------------------------------------- | ----------------------------------------------- |
+| **Divide-and-Conquer** | Break into subproblems, solve recursively, combine | Independent subproblems; T(n) = aT(n/b) + f(n)      | Merge Sort, Binary Search, Karatsuba            |
+| **Greedy**             | Make locally optimal choice at each step           | Never backtracks; must prove correctness; efficient | Dijkstra's, Interval Scheduling, Connect Sticks |
+| **Backtracking**       | Build incrementally, backtrack when invalid        | Explores search tree; abandons bad paths early      | N-Queens, Sudoku, Graph Coloring                |
 
 ## Heap Data Structure
 
