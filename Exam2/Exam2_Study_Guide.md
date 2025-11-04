@@ -352,23 +352,55 @@ Col 1: Try rows 1, 2, 3, 4
   |    Col 2: Try rows 1, 2, 3, 4
   |    |
   |    ├─ row=1? NO - same row as (1,1)
-  |    ├─ row=2? NO - diagonal attack with (1,1)
-  |    ├─ row=3? YES - safe
+  |    ├─ row=2? NO - diagonal with (1,1): |1-2| = |1-2| = 1
+  |    ├─ row=3? YES - safe: row ≠ 1, |1-3| = 2 ≠ |1-2| = 1
   |    |    Col 3: Try rows 1, 2, 3, 4
   |    |    |
   |    |    ├─ row=1? NO - same row as (1,1)
-  |    |    ├─ row=2? NO - diagonal with (3,2)
+  |    |    ├─ row=2? YES - safe: rows ≠ 1,3 and diagonals OK
+  |    |    |    Col 4: Try rows 1, 2, 3, 4
+  |    |    |    |
+  |    |    |    ├─ row=1? NO - same row as (1,1)
+  |    |    |    ├─ row=2? NO - same row as (2,3)
+  |    |    |    ├─ row=3? NO - same row as (3,2)
+  |    |    |    └─ row=4? NO - diagonal with (1,1): |1-4| = |1-4| = 3
+  |    |    |    └─ BACKTRACK - no valid row in col 4
+  |    |    |
   |    |    ├─ row=3? NO - same row as (3,2)
-  |    |    ├─ row=4? NO - diagonal with (3,2)
-  |    |    └─ BACKTRACK - no valid row in col 3
+  |    |    └─ row=4? NO - diagonal with (3,2): |3-4| = |2-3| = 1
+  |    |    └─ BACKTRACK - no more rows to try in col 3
   |    |
-  |    └─ row=4? YES - safe
-  |         Col 3: ...
-  |         (Continue exploring...)
+  |    └─ row=4? YES - safe: row ≠ 1, |1-4| = 3 ≠ |1-2| = 1
+  |         Col 3: Try rows 1, 2, 3, 4
+  |         |
+  |         ├─ row=1? NO - same row as (1,1)
+  |         ├─ row=2? YES - safe: rows ≠ 1,4 and diagonals OK
+  |         |    Col 4: Try rows 1, 2, 3, 4
+  |         |    |
+  |         |    ├─ row=1? NO - same row as (1,1)
+  |         |    ├─ row=2? NO - same row as (2,3)
+  |         |    ├─ row=3? YES - safe: rows ≠ 1,4,2 and no diagonal conflicts
+  |         |    |    SUCCESS! Solution found: [1,4,2,3]
+  |         |    └─ (no need to try row=4)
+  |         ...
   |
   ├─ Q at (row=2, col=1)
-  |    Col 2: ...
-  |    (Contains solution: board = [2,4,1,3])
+  |    Col 2: Try rows 1, 2, 3, 4
+  |    |
+  |    ├─ row=1? NO - diagonal with (2,1): |2-1| = |1-2| = 1
+  |    ├─ row=2? NO - same row as (2,1)
+  |    ├─ row=3? NO - diagonal with (2,1): |2-3| = |1-2| = 1
+  |    └─ row=4? YES - safe: row ≠ 2, |2-4| = 2 ≠ |1-2| = 1
+  |         Col 3: Try rows 1, 2, 3, 4
+  |         |
+  |         ├─ row=1? YES - safe: rows ≠ 2,4 and diagonals OK
+  |         |    Col 4: Try rows 1, 2, 3, 4
+  |         |    |
+  |         |    ├─ row=1? NO - same row as (1,3)
+  |         |    ├─ row=2? NO - same row as (2,1)
+  |         |    ├─ row=3? YES - safe!
+  |         |    |    SUCCESS! Solution found: [2,4,1,3]
+  |         |    └─ (no need to try row=4)
   ...
 ```
 
