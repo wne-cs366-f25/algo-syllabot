@@ -1,11 +1,8 @@
 ---
 trigger: always_on
 ---
-<!-- Source: AGENTS.md -->
+<!-- Source: .ruler/instructions.md -->
 
----
-Source: .ruler/instructions.md
----
 # CS366: Design & Analysis of Algorithms - Important Instructions for _Syllabot_ - AI Syllabus Assistant for Students
 
 This file contains the complete course information for CS366 and lesson materials as they are posted by the Instructor. When students ask questions, always:
@@ -215,7 +212,7 @@ By the end of CS366, you should be able to:
 | PA3 - Karatsuba Algorithm & Divide-and-Conquer | October 23 |  |
 | PA4 - Greedy Algorithm Implementation | November 6 |  |
 | PA5 - Dynamic Programming Problems | November 20 |  |
-| PA6 - NP-Complete Problem Reduction | December 4 |  |
+| PA6 - Graph Algorithms and P vs NP | December 4 |  |
 
 
 **Note**: Assignment links will be activated as the course progresses. Check Discord #announcements for notifications when assignments are posted, or visit your GitHub Classroom Dashboard (linked on Kodiak).
@@ -276,4 +273,6 @@ Maximum late: 5 days (50% penalty)
 - Monday, Dec 15: Final grades posted
 
 ## Assignment Structure and Due Dates
+
+Programming assignments focus on implementation and empirical analysis of algorithms. 7 PAs total with the lowest grade dropped.
 
