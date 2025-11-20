@@ -117,7 +117,7 @@ By the end of CS366, you should be able to:
 
 
 ### Week 3: Sep 9, 11
-**Topic**: Math Review Activities, Asymptotic Notation & Binary Trees
+**Topic**: Asymptotic Notation & Binary Search Trees
 **Paradigm**: Tree Algorithms - Data Structures
 
 
@@ -208,11 +208,11 @@ By the end of CS366, you should be able to:
 |-------|----------|--------|
 | PA0 - GitHub & Environment Starter Assignment | Sept 4 | Clone and work with GitHub Classroom repositories, Use basic Git commands for version control, Navigate development container environments, Follow course submission procedures |
 | PA1 - Algorithm Analysis Practice | September 18 |  |
-| PA2 - Complexity & Recursion | October 2 |  |
-| PA3 - Karatsuba Algorithm & Divide-and-Conquer | October 23 |  |
+| PA2 - Divide & Conquer Implementation | October 2 |  |
+| PA3 - Graph Algorithm Implementation | October 23 |  |
 | PA4 - Greedy Algorithm Implementation | November 6 |  |
 | PA5 - Dynamic Programming Problems | November 20 |  |
-| PA6 - Graph Algorithms and P vs NP | December 4 |  |
+| PA6 - Game Algorithms | December 4 |  |
 
 
 **Note**: Assignment links will be activated as the course progresses. Check Discord #announcements for notifications when assignments are posted, or visit your GitHub Classroom Dashboard (linked on Kodiak).
@@ -287,7 +287,7 @@ Programming assignments focus on implementation and empirical analysis of algori
 
 ## Course Topics by Exam
 
-### Algorithm Analysis and Foundations Topics: Algorithm analysis, peak finding, data structures, asymptotic notation, binary trees, BSTs, recurrence relations, sorting algorithms, linear sorting, hashing and hash tables
+### Algorithm Analysis and Foundations Topics: Algorithm analysis, peak finding, data structures, asymptotic notation, binary search trees, recurrence relations, sorting algorithms, linear sorting, hashing and hash tables
 
 - Introduction and Peak Finding - Algorithmic thinking and divide-and-conquer
 

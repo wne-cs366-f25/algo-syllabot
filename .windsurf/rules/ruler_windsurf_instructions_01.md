@@ -12,7 +12,7 @@ trigger: always_on
 
 ## Course Topics by Exam
 
-### Algorithm Analysis and Foundations Topics: Algorithm analysis, peak finding, data structures, asymptotic notation, binary trees, BSTs, recurrence relations, sorting algorithms, linear sorting, hashing and hash tables
+### Algorithm Analysis and Foundations Topics: Algorithm analysis, peak finding, data structures, asymptotic notation, binary search trees, recurrence relations, sorting algorithms, linear sorting, hashing and hash tables
 
 - Introduction and Peak Finding - Algorithmic thinking and divide-and-conquer
 

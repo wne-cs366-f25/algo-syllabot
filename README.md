@@ -110,7 +110,7 @@ By the end of CS366, you should be able to:
 **Assignment**: PA0 due (Sep 4)
 
 ### Week 3: Sep 9, 11
-**Topic**: Math Review Activities, Asymptotic Notation & Binary Trees
+**Topic**: Asymptotic Notation & Binary Search Trees
 
 ### Week 4: Sep 16, 18
 **Topic**: Recurrence Relations & Sorting Algorithms
@@ -171,13 +171,13 @@ By the end of CS366, you should be able to:
 
 | Title | Due Date |
 |-------|----------|
-| [PA0 - GitHub & Environment Starter Assignment](https://github.com/wne-cs366-f25/pa0-github-and-java) | Sept 4 |
-| [PA1 - Algorithm Analysis Practice](https://github.com/wne-cs366-f25/cs366-pa1-algorithm-analysis) | September 18 |
-| [PA2 - Complexity & Recursion](https://github.com/wne-cs366-f25/cs366-pa2-complexity-and-recursion) | October 2 |
-| [PA3 - Karatsuba Algorithm & Divide-and-Conquer](https://github.com/wne-cs366-f25/cs366-pa3-divide-and-conquer.git) | October 23 |
-| [PA4 - Greedy Algorithm Implementation](https://github.com/wne-cs366-f25/cs366-pa4-greedy.git) | November 6 |
-| [PA5 - Dynamic Programming Problems](https://github.com/wne-cs366-f25/cs366-pa5-dynamic-programming.git) | November 20 |
-| [PA6 - Graph Algorithms and P vs NP]() | December 4 |
+| [PA0 - GitHub & Environment Starter Assignment]() | Sept 4 |
+| [PA1 - Algorithm Analysis Practice]() | September 18 |
+| [PA2 - Divide & Conquer Implementation]() | October 2 |
+| [PA3 - Graph Algorithm Implementation]() | October 23 |
+| [PA4 - Greedy Algorithm Implementation]() | November 6 |
+| [PA5 - Dynamic Programming Problems]() | November 20 |
+| [PA6 - Game Algorithms]() | December 4 |
 
 
 **Note**: Assignment links will be activated as the course progresses. Check Discord #announcements for notifications when assignments are posted, or visit your GitHub Classroom Dashboard (linked on Kodiak).
@@ -185,7 +185,7 @@ By the end of CS366, you should be able to:
 ## Examinations
 
 ### Algorithm Analysis and Foundations: Thursday, Oct 2 (15%)
-Algorithm analysis, peak finding, data structures, asymptotic notation, binary trees, BSTs, recurrence relations, sorting algorithms, linear sorting, hashing and hash tables
+Algorithm analysis, peak finding, data structures, asymptotic notation, binary search trees, recurrence relations, sorting algorithms, linear sorting, hashing and hash tables
 
 ### Advanced Data Structures: Thursday, Nov 6 (15%)
 AVL trees, binary heaps, graph algorithms basics, BFS, DFS, Bellman-Ford, greedy algorithms, Dijkstra's algorithm, shortest paths
