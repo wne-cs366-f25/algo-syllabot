@@ -44,15 +44,11 @@ trigger: always_on
 
 
 
-### Dynamic Programming and Computational Complexity Topics: Dynamic programming introduction and sequences, advanced DP, knapsack problems, minimum spanning trees, computational complexity, NP-completeness
+### Dynamic Programming and Computational Complexity Topics: Dynamic Programming, P vs NP, Reductions, TSP, Hamiltonian & Satisfiability
 
-- Introduction to Dynamic Programming - Memoization and tabulation
+- Dynamic Programming - Memoization and tabulation
 
-- DP on Sequences - LCS, LIS, and edit distance
-
-- Advanced Dynamic Programming - Matrix chain, Floyd-Warshall, and tree DP
-
-- Knapsack and Pseudopolynomial Algorithms - Optimization with constraints
+- Knapsack and TSP - Optimization with constraints
 
 - Computational Complexity Theory - P, NP, and NP-completeness
 

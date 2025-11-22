@@ -171,13 +171,13 @@ By the end of CS366, you should be able to:
 
 | Title | Due Date |
 |-------|----------|
-| [PA0 - GitHub & Environment Starter Assignment]() | Sept 4 |
-| [PA1 - Algorithm Analysis Practice]() | September 18 |
-| [PA2 - Divide & Conquer Implementation]() | October 2 |
-| [PA3 - Graph Algorithm Implementation]() | October 23 |
-| [PA4 - Greedy Algorithm Implementation]() | November 6 |
-| [PA5 - Dynamic Programming Problems]() | November 20 |
-| [PA6 - Game Algorithms]() | December 4 |
+| [PA0 - GitHub & Environment Starter Assignment](https://github.com/wne-cs366-f25/pa0-github-and-java) | Sept 4 |
+| [PA1 - Algorithm Analysis Practice](https://github.com/wne-cs366-f25/cs366-pa1-algorithm-analysis) | September 18 |
+| [PA2 - Complexity & Recursion](https://github.com/wne-cs366-f25/cs366-pa2-complexity-and-recursion) | October 2 |
+| [PA3 - Karatsuba Algorithm & Divide-and-Conquer](https://github.com/wne-cs366-f25/cs366-pa3-divide-and-conquer) | October 23 |
+| [PA4 - Greedy Algorithm Implementation](https://github.com/wne-cs366-f25/cs366-pa4-greedy) | November 6 |
+| [PA5 - Dynamic Programming Problems](https://github.com/wne-cs366-f25/cs366-pa5-dynamic-programming) | November 20 |
+| [PA6 - Complexity & Optimization](https://github.com/wne-cs366-f25/cs366-pa6-complexity-and-optimization) | December 4 |
 
 
 **Note**: Assignment links will be activated as the course progresses. Check Discord #announcements for notifications when assignments are posted, or visit your GitHub Classroom Dashboard (linked on Kodiak).
@@ -191,7 +191,7 @@ Algorithm analysis, peak finding, data structures, asymptotic notation, binary s
 AVL trees, binary heaps, graph algorithms basics, BFS, DFS, Bellman-Ford, greedy algorithms, Dijkstra's algorithm, shortest paths
 
 ### Dynamic Programming and Computational Complexity: Finals Week (Dec 8-12) (15%)
-Dynamic programming introduction and sequences, advanced DP, knapsack problems, minimum spanning trees, computational complexity, NP-completeness 
+Dynamic Programming, P vs NP, Reductions, TSP, Hamiltonian & Satisfiability 
 
 ## Grading
 

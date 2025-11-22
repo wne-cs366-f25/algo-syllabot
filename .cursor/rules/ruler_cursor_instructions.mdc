@@ -208,11 +208,11 @@ By the end of CS366, you should be able to:
 |-------|----------|--------|
 | PA0 - GitHub & Environment Starter Assignment | Sept 4 | Clone and work with GitHub Classroom repositories, Use basic Git commands for version control, Navigate development container environments, Follow course submission procedures |
 | PA1 - Algorithm Analysis Practice | September 18 |  |
-| PA2 - Divide & Conquer Implementation | October 2 |  |
-| PA3 - Graph Algorithm Implementation | October 23 |  |
+| PA2 - Complexity & Recursion | October 2 |  |
+| PA3 - Karatsuba Algorithm & Divide-and-Conquer | October 23 |  |
 | PA4 - Greedy Algorithm Implementation | November 6 |  |
 | PA5 - Dynamic Programming Problems | November 20 |  |
-| PA6 - Game Algorithms | December 4 |  |
+| PA6 - Complexity & Optimization | December 4 |  |
 
 
 **Note**: Assignment links will be activated as the course progresses. Check Discord #announcements for notifications when assignments are posted, or visit your GitHub Classroom Dashboard (linked on Kodiak).
@@ -319,15 +319,11 @@ Programming assignments focus on implementation and empirical analysis of algori
 
 
 
-### Dynamic Programming and Computational Complexity Topics: Dynamic programming introduction and sequences, advanced DP, knapsack problems, minimum spanning trees, computational complexity, NP-completeness
+### Dynamic Programming and Computational Complexity Topics: Dynamic Programming, P vs NP, Reductions, TSP, Hamiltonian & Satisfiability
 
-- Introduction to Dynamic Programming - Memoization and tabulation
+- Dynamic Programming - Memoization and tabulation
 
-- DP on Sequences - LCS, LIS, and edit distance
-
-- Advanced Dynamic Programming - Matrix chain, Floyd-Warshall, and tree DP
-
-- Knapsack and Pseudopolynomial Algorithms - Optimization with constraints
+- Knapsack and TSP - Optimization with constraints
 
 - Computational Complexity Theory - P, NP, and NP-completeness
 
