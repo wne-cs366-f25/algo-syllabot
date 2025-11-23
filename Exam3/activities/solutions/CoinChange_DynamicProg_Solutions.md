@@ -7,6 +7,9 @@
 
 Determine the **minimum number of coins** needed to make change for **A** cents, with a given set of **n** denominations. The denominations are arranged in **decreasing order**, and the smallest denomination is **1**.
 
+**!!! IMPLEMENTATION NOTE !!!**
+The algorithm described assumes that the `denom` array is sorted in **decreasing order** (e.g., `[25, 10, 5, 1]`) and that `denom[n]` (the last element) is always `1`. If your input provides denominations in a different order (e.g., increasing), you *must* sort the array in descending order before applying this dynamic programming algorithm to ensure correctness.
+
 ### Variables:
 - **A** = the amount of change (in cents)
 - **denom** = array of denominations (types of available coins)
