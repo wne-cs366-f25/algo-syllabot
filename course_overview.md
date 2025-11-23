@@ -46,7 +46,7 @@ This document provides a comprehensive overview of all course content organized 
 | 12 | LEC20   | DP: Coin Change | Tuesday, Nov 11 | CLRS Chapter 16, 'CoinChange Dynamic Programming.pptx', Activity 'CoinChange Dynamic Programming Handout.doc.pdf' |
 | 12 | LEC21   | Intro to Dynamic Programming (DP) | Thursday, Nov 13 | CLRS Chapter 16, 'Dynamic Programmming.docx.pdf', 'Knapsack Problem Intro', Activity 'Knapsack_DynamicProgramming.doc.pdf |
 | 13 | LEC22   | Hamiltonian & Traveling Salesman Problem | Tuesday, Nov 18 | CLRS Chapter 34, 'Backtracking TSP.pptx', Activity: 'HamiltonianCycle TSP Handout.docx.pdf' |
-| 13 | LEC23   | Satisfiability (async) | Thursday, Nov 20 | CLRS Chapter 34, Video by JetBrains: 'Satisfiability' by Alexander Kulikov, 'satisfiability.pdf' |
+| 13 | LEC23   | Async (no class): Satisfiability | Thursday, Nov 20 | CLRS Chapter 34, Video by JetBrains: 'Satisfiability' by Alexander Kulikov, 'satisfiability.pdf' |
 | 14 | LEC24   | NP-Completenes | Tuesday, Nov 25 | CLRS Chapter 34 |
 | 15 | LEC25   | Computational Complexity Theory | Tuesday Dec 2 | CLRS Chapter 34 |
 | 15 | LEC26   | Course Review & Advanced Topics | Thursday, Dec 4 | Course Review Materials |
